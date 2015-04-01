@@ -52,7 +52,7 @@
 \usepackage{verbatim}
 
 \usepackage{draftwatermark} % Comment this line to delete the draft watermark
-\SetWatermarkText{SAMPLE}
+\SetWatermarkText{DRAFT}
 \SetWatermarkScale{1}
 
 \usepackage{blindtext} % to create arbitratry text
@@ -128,7 +128,7 @@
 \AddToShipoutPictureBG{%
  \AtPageLowerLeft{\hspace{1cm} \includegraphics[width=0.15\textwidth]{/media/truecrypt2/ORP2/Logos/Outcome_Project_Logo.png}~\\[1cm]}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\linespread{1.5}
 \begin{document}
 
 \begin{titlepage}
@@ -144,8 +144,7 @@
 \HRule \\[2.5cm]
 
 \emph{Sponsored by:}\\
-\HUGE{CORPORATE LOGO}
-%\includegraphics[width=0.30\textwidth]{/media/truecrypt2/ORP2/Logos/New_Logo_Salud_Aug_2013.jpg}~\\[1cm]
+\includegraphics[width=0.30\textwidth]{/media/truecrypt2/ORP2/Logos/New_Logo_Salud_Aug_2013.jpg}~\\[1cm]
 
 \HRule \\[2.5cm]
 
@@ -165,7 +164,7 @@ Outcome Project, LLC\\
 % \begin{minipage}{0.4\textwidth}
 % \begin{flushright} \small
 % \\
-% Eliseo Acevedo, MPH\\
+% Other Name\\
 % Data Scientist\\
 % Outcome Project, LLC\\
 % \end{flushright}
@@ -246,7 +245,7 @@ Sincerely,\\
 \newpage
 \section{Introduction}
 
-\input{/home/surfprjab/Dropbox/Puerto_Rico_Chronic_Report/Diseases_Tex/Introduction/NCD_Report_Introduction.tex}
+\input{/home/surfprjab/Dropbox/Puerto_Rico_Chronic_Report/Introduction/Introduction.tex}
 
 %----------------------------------------------------------------------------------------
 %            Methods
@@ -256,11 +255,13 @@ Sincerely,\\
 \blindtext[2]
 %----------------------------------------------------------------------------------------
 %            RESULTS
+\newpage
+\section{Results}
 %----------------------------------------------------------------------------------------
 % Asthma
 %----------------------------------------------------------------------------------------
-\newpage
-\section{Asthma}
+
+\subsection{Asthma}
 
 \input{/home/surfprjab/Dropbox/Puerto_Rico_Chronic_Report/Diseases_Tex/Asthma/2013_Prevalence_BRFSS_Adults_Report.tex}
 
@@ -268,7 +269,7 @@ Sincerely,\\
 % Coronary Heart Disease
 %----------------------------------------------------------------------------------------
 \newpage
-\section{Coronary Heart Disease}
+\subsection{Coronary Heart Disease}
 
 \input{/home/surfprjab/Dropbox/Puerto_Rico_Chronic_Report/Diseases_Tex/Coronary_Heart_Disease/2013_Prevalence_BRFSS_Adults_Report.tex}
 
@@ -277,7 +278,7 @@ Sincerely,\\
 % Diabetes
 %----------------------------------------------------------------------------------------
 \newpage
-\section{Diabetes}
+\subsection{Diabetes}
 
 \input{/home/surfprjab/Dropbox/Puerto_Rico_Chronic_Report/Diseases_Tex/Diabetes/2013_Prevalence_BRFSS_Adults_Report.tex}
 
@@ -285,7 +286,7 @@ Sincerely,\\
 % Heart Attack
 %----------------------------------------------------------------------------------------
 \newpage
-\section{Heart Attack}
+\subsection{Heart Attack}
 
 \input{/home/surfprjab/Dropbox/Puerto_Rico_Chronic_Report/Diseases_Tex/Heart_Attack/2013_Prevalence_BRFSS_Adults_Report.tex}
 
@@ -293,9 +294,8 @@ Sincerely,\\
 % Stroke
 % %----------------------------------------------------------------------------------------
 \newpage
-\section{Stroke}
+\subsection{Stroke}
 
 \input{/home/surfprjab/Dropbox/Puerto_Rico_Chronic_Report/Diseases_Tex/Stroke/2013_Prevalence_BRFSS_Adults_Report.tex}
-
 
 \end{document}

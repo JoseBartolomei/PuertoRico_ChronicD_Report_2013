@@ -5,9 +5,9 @@ date: "March 23, 2015"
 header-includes:
    - \usepackage{setspace}
    - \doublespacing
-output: 
+output:
   pdf_document:
-  keep_tex: true
+    keep_tex: true
 bibliography: /home/surfprjab/Dropbox/Puerto_Rico_Chronic_Report/References/ChronReport.bib
 csl: /home/surfprjab/Dropbox/Puerto_Rico_Chronic_Report/References/csl_Reference_Style/apa6th.csl
 ---
