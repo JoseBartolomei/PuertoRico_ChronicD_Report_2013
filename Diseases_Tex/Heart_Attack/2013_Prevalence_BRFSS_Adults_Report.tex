@@ -1,0 +1,741 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%                           LOAD LaTeX PACKAGES                              %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%            RESULTS
+%----------------------------------------------------------------------------------------
+
+\newpage
+\section{Results: Heart attack among adults}
+
+\subsection{Overall}
+
+%----------------------------FIRST FIGURE------------------------------------------------
+
+% \subsection*{Overall Prevalence}
+
+
+%latex.default(object = Overall.tabl[, c(-1, -2)], title = "Group",     file = "", rowname = c("Adults"), colhead = c("Prevalence",         "Cases", "Sample Size"), append = TRUE, table.env = T,     here = T, caption = paste(set_Measure, " among adults in ",         set_Country, ", ", set_Years, sep = ""), label = paste("tab:Overall.tabl",         set_DiseaseF, set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Heart attack prevalence among adults in Puerto Rico, 2013\label{tab:Overall.tabl.Heart_Attack.2013}} 
+\begin{center}
+\begin{tabular}{llll}
+\hline\hline
+\multicolumn{1}{l}{Group}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases}&\multicolumn{1}{c}{Sample Size}\tabularnewline
+\hline
+Adults&4.86 (4.23-5.49)&136,799&6,011\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{itemize}
+
+
+\item The Heart attack prevalence for the year 2013 among adults in Puerto Rico was 4.86 (4.23-5.49) percent, 
+Table \ref{tab:Overall.tabl.Heart_Attack.2013}.
+
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%                     Definition of matrices for the tables                  %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\subsection{Socio-demographics}
+
+\begin{itemize}
+
+\item Figure \ref{fig:age.Heart_Attack.2013} shows that the heart attack prevalence for the age group of
+65+
+was higher when compared with the other groups.
+
+\item Adults in the age group of 45-54, 55-64, 65+ had 3.7 times more possibility, 6.77 times more possibility, 9.21 times more possibility, respectively, of reporting heart attack prevalence when compared with the 18-24 group. This differences were significant (p-value $<$ 0.05). See Table \ref{tab:age.Heart_Attack.2013}.
+
+
+\end{itemize}
+
+
+\begin{figure}[H]
+\caption{Heart attack prevalence among adults by age group, 
+2013}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Heart_Attack/Prevalence/Adult/2013ageg2-1} 
+
+}
+
+
+
+\end{knitrout}
+\label{fig:age.Heart_Attack.2013}
+\end{figure}
+
+%latex.default(tabl.ageg2, title = "Variables", file = "", append = TRUE,     rgroup = "Age group", colhead = c("Prevalence", "Cases (N)",         "OR", "OR(SE)", "p-value"), longtable = F, table.env = T,     here = T, caption = paste(set_Measure, " among adults by age group,",         set_Years, sep = " "), label = paste("tab:age", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Heart attack prevalence  among adults by age group, 2013\label{tab:age.Heart_Attack.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Age group}&&&&&\tabularnewline
+~~18-24&1.17 (0.14-2.20)& 4,439&1.00&0.00&1.00\tabularnewline
+~~25-34&0.89 (0.15-1.63)& 4,377&0.59&0.65&0.43\tabularnewline
+~~35-44&1.61 (0.35-2.86)& 7,753&1.17&0.67&0.81\tabularnewline
+~~45-54&4.04 (2.55-5.53)&19,592&3.70&0.57&0.02\tabularnewline
+~~55-64&8.14 (6.05-10.2)&35,571&6.77&0.56&0.00\tabularnewline
+~~65+&11.9 (10.1-13.7)&65,066&9.21&0.58&0.00\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+
+\newpage
+\begin{itemize}
+
+\item Figure \ref{fig:sex.Heart_Attack.2013} shows that males had a \ifthenelse{
+524 < 452}{lower}{higher}
+heart attack prevalence when compared with females.
+
+%\item Table \ref{tab:sex} shows the estimates for persons living with set_Disease in 
+%set_Country with it 95\% confidence interval.
+
+\item Among adults, females had 34\% less possibility of reporting heart attack prevalence when compared with males. This difference was significant (p-value $<$ 0.05). See Table \ref{tab:sex.Heart_Attack.2013}.
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Heart attack prevalence among adults by sex group, 
+2013}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Heart_Attack/Prevalence/Adult/2013sex-1} 
+
+}
+
+
+
+\end{knitrout}
+\label{fig:sex.Heart_Attack.2013}
+\end{figure}
+
+%latex.default(tabl.sex, title = "Variables", file = "", append = TRUE,     rgroup = "Sex group", colhead = c("Prevalence", "Cases (N)",         "OR", "OR(SE)", "p-value"), longtable = F, table.env = T,     here = T, caption = paste(set_Measure, " among adults by sex group,",         set_Years, sep = " "), label = paste("tab:sex", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Heart attack prevalence  among adults by sex group, 2013\label{tab:sex.Heart_Attack.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Sex group}&&&&&\tabularnewline
+~~Males&5.24 (4.23-6.25)&69,184&1.00&0.00&1.00\tabularnewline
+~~Females&4.52 (3.74-5.30)&67,615&0.66&0.17&0.02\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+
+%###################### educag ####################
+\newpage
+\begin{itemize}
+
+\item When comparing by education level, those with
+some high school
+have the highest heart attack prevalence. A 8\% of the heart attack prevalence patients had some high school.
+(Figure \ref{fig:edu.Heart_Attack.2013}).
+
+\item 
+When observing the adjusted odds ratio the group high school graduate had 34\% less possibility of reporting heart attack prevalence than the comparison group (Some High School).
+This difference was not significant (p-value $>$ 0.05).  Data shown in Table \ref{tab:edu.Heart_Attack.2013}.
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Heart attack prevalence among adults by education levels, 
+         2013}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Heart_Attack/Prevalence/Adult/2013educag-1} 
+
+}
+
+
+
+\end{knitrout}
+ \label{fig:edu.Heart_Attack.2013}
+\end{figure}
+
+%latex.default(tabl.educag3, title = "Variables", file = "", append = TRUE,     rgroup = "Education group", colhead = c("Prevalence", "Cases (N)",         "OR", "OR(SE)", "p-value"), longtable = F, table.env = T,     here = T, caption = paste(set_Measure, " among adults by education levels,",         set_Years, sep = " "), label = paste("tab:edu", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Heart attack prevalence  among adults by education levels, 2013\label{tab:edu.Heart_Attack.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Education group}&&&&&\tabularnewline
+~~Some High School&8.86 (7.16-10.5)&70,316&1.00&0.00&1.00\tabularnewline
+~~High School Graduate&3.84 (2.83-4.85)&28,092&0.66&0.21&0.05\tabularnewline
+~~Some University&2.83 (1.95-3.72)&20,189&0.68&0.22&0.08\tabularnewline
+~~University Graduate&2.81 (2.01-3.62)&16,089&0.80&0.26&0.41\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+ 
+ 
+ \newpage
+\begin{itemize}
+
+\item Figure \ref{fig:income.Heart_Attack.2013} shows that adults whose annual household income is 
+$<$15k, have a heart attack prevalence higher than the other income groups.
+
+\item Those in the range of 50+k had 50\% less possibility of reporting heart attack than those whose annual income is less than \$ 14,999. This difference was not significant (p-value $>$ 0.05).  For further information, refer to Table \ref{tab:income.Heart_Attack.2013}.
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Heart attack prevalence among adults by household income levels, 
+         2013}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Heart_Attack/Prevalence/Adult/2013incomg-1} 
+
+}
+
+
+
+\end{knitrout}
+ \label{fig:income.Heart_Attack.2013}
+\end{figure}
+
+%latex.default(tabl.incomg, title = "Variables", file = "", append = TRUE,     rgroup = "Income group", colhead = c("Prevalence", "Cases (N)",         "OR", "OR(SE)", "p-value"), longtable = F, table.env = T,     here = T, caption = paste(set_Measure, " among adults by income levels,",         set_Years, sep = " "), label = paste("tab:income", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Heart attack prevalence  among adults by income levels, 2013\label{tab:income.Heart_Attack.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Income group}&&&&&\tabularnewline
+~~\textless15k&6.31 (5.19-7.44)&76,016&1.00&0.00&1.00\tabularnewline
+~~15k-\textless25k&4.06 (2.94-5.18)&26,321&0.92&0.18&0.67\tabularnewline
+~~25k-\textless35k&3.15 (1.35-4.95)& 6,352&0.77&0.34&0.46\tabularnewline
+~~35k-\textless50k&1.64 (0.08-3.21)& 2,403&0.50&0.52&0.19\tabularnewline
+~~50+k&1.68 (0.52-2.83)& 2,391&0.50&0.42&0.11\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+%%%%%%%%%%%%%%%%% Marial Status %%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+\begin{itemize}
+
+\item Adults who were 
+widowed at the time of the interview, had the highest heart attack among marital status. Refer to figure \ref{fig:marital.Heart_Attack.2013}.
+
+\item Those who were unmarried couple had 2.14 times more possibility of having heart attack prevalence when compared with those who responded being married. This difference was significant (p-value $<$ 0.05). Refere to Table \ref{tab:marital.Heart_Attack.2013}.
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Heart attack prevalence among adults by marital status,
+         2013}
+\label{fig:marital.Heart_Attack.2013}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Heart_Attack/Prevalence/Adult/2013marital2-1} 
+
+}
+
+
+
+\end{knitrout}
+ \end{figure}
+
+%latex.default(tabl.marital, title = "Variables", file = "", append = TRUE,     rgroup = "Marital group", colhead = c("Prevalence", "Cases (N)",         "OR", "OR(SE)", "p-value"), longtable = F, table.env = T,     here = T, caption = paste(set_Measure, " among adults by marital status,",         set_Years, sep = " "), label = paste("tab:marital", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Heart attack prevalence  among adults by marital status, 2013\label{tab:marital.Heart_Attack.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Marital group}&&&&&\tabularnewline
+~~Married&5.42 (4.45-6.40)&58,894&1.00&0.00&1.00\tabularnewline
+~~Divorced&3.76 (2.32-5.20)&19,888&0.70&0.26&0.18\tabularnewline
+~~Widowed&10.8 (8.23-13.4)&32,165&1.27&0.19&0.21\tabularnewline
+~~Separated&3.39 (0.98-5.81)& 8,121&0.76&0.40&0.51\tabularnewline
+~~Never Married&1.68 (0.77-2.60)& 8,308&1.10&0.32&0.76\tabularnewline
+~~Unmarried Couple&4.42 (2.38-6.46)& 7,309&2.14&0.30&0.01\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+ 
+%%%%%%%%%%%%%%%%%% employment status %%%%%%%%%%
+ \newpage
+\begin{itemize}
+
+
+\item Those adults who were 
+unable to work at the moment of the interview, had the highest heart attack prevalence (Figure \ref{fig:employ.Heart_Attack.2013}).
+
+\item Adults who were out of work, unable to work had 2.21 times more possibility, 2.15 times more possibility, respectively, of reporting heart attack prevalence when compared with those who responded being employed. This differences were significant (p-value $<$ 0.05). 
+Data shown in Table \ref{tab:employ.Heart_Attack.2013}.
+
+%\item Those who are rownames(t.asma.current.socio)[24], 
+%rownames(t.asma.current.socio)[25], rownames(t.asma.current.socio)[26] or,
+%rownames(t.asma.current.socio)[27] have the same set_Measure in statistical terms.
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Heart attack prevalence among adults by employment status, 
+         2013}
+\label{fig:employ.Heart_Attack.2013}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Heart_Attack/Prevalence/Adult/2013employ-1} 
+
+}
+
+
+
+\end{knitrout}
+ \end{figure}
+
+%latex.default(tabl.emplrec2, title = "Variables", file = "",     append = TRUE, rgroup = "Employment status", colhead = c("Prevalence",         "Cases (N)", "OR", "OR(SE)", "p-value"), longtable = F,     table.env = T, here = T, caption = paste(set_Measure, " among adults by employment status,",         set_Years, sep = " "), label = paste("tab:employ", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Heart attack prevalence  among adults by employment status, 2013\label{tab:employ.Heart_Attack.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Employment status}&&&&&\tabularnewline
+~~Employed&1.74 (1.12-2.36)& 4,439&1.00&0.00&1.00\tabularnewline
+~~Out of work&4.36 (1.88-6.84)& 4,377&2.21&0.39&0.04\tabularnewline
+~~Homework&5.14 (3.74-6.55)& 7,753&1.18&0.31&0.59\tabularnewline
+~~Student&1.29 (0.00-2.81)&19,592&1.89&0.85&0.45\tabularnewline
+~~Retired&10.3 (8.51-12.2)&35,571&1.38&0.28&0.25\tabularnewline
+~~Unable to work&10.5 (7.41-13.7)&65,066&2.15&0.29&0.00\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+
+%%%%%%%%%%%%%%%% HRQOL %%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+\subsection{Health related quality of life}
+
+
+ \begin{itemize}
+
+\item Figure \ref{fig:fairpoor.Heart_Attack.2013} shows that heart attack prevalence  was 
+\ifthenelse{
+ 219 < 
+  973}{higher}{lower} in persons who perceive their health has fair / poor,
+than those who claim to have a very good health.
+
+\item Adults who perceive their health as fair or poor had 38\% more possibility of reporting heart attack prevalence when compared with those who perceived their health as very good. This difference was not significant (p-value $>$ 0.05). Data shown in Table \ref{tab:fairpoor.Heart_Attack.2013}.
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Heart attack prevalence among adults according to health perception,
+         2013}
+\label{fig:fairpoor.Heart_Attack.2013}
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Heart_Attack/Prevalence/Adult/2013poorh-1} 
+
+}
+
+
+
+\end{knitrout}
+ \end{figure}
+
+%latex.default(tabl.fairpoor, title = "Variables", file = "",     append = TRUE, rgroup = "Health Perception", colhead = c("Prevalence",         "Cases (N)", "OR", "OR(SE)", "p-value"), longtable = F,     table.env = T, here = T, caption = paste(set_Measure, " among adults according to health perception,",         set_Years, sep = " "), label = paste("tab:fairpoor",         set_DiseaseF, set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Heart attack prevalence  among adults according to health perception, 2013\label{tab:fairpoor.Heart_Attack.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Health Perception}&&&&&\tabularnewline
+~~Very Good&2.19 (1.63-2.75)&39,829&1.00&0.00&1.00\tabularnewline
+~~Fair / Poor&9.73 (8.30-11.1)&96,742&1.38&0.25&0.20\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+ 
+\newpage
+
+%%%%%%%%%%%%% physical unhealthy %%%%%%%%%%%%
+ \newpage
+\begin{itemize}
+
+\item Adults who reported being physically unhealthy for 14 days or more in the past 30 days, had an heart attack that was 
+\ifthenelse{
+ 414 >
+  901}{lower}{higher} when compared with 
+those who reported being physically unhealthy for less than 13 days in the last 30 days.
+
+%\item Table \ref{tab:phys} shows the estimations of the set_Measure.
+
+\item Adults who felt physically impaired for 14 days or more had 15\% less possibility of reporting having heart attack at the moment of the interview, when compared with those who felt physically impaired for 13 days or less (See Table \ref{tab:phys.Heart_Attack.2013}).
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Heart attack prevalence among adults according to physical health perception, 2013}
+\label{fig:phys.Heart_Attack.2013}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Heart_Attack/Prevalence/Adult/2013physchlcat-1} 
+
+}
+
+
+
+\end{knitrout}
+ \end{figure}
+
+%latex.default(tabl.physhlcat, title = "Variables", file = "",     append = TRUE, rgroup = "Days with physical symptoms", colhead = c("Prevalence",         "Cases (N)", "OR", "OR(SE)", "p-value"), longtable = F,     table.env = T, here = T, caption = paste(set_Measure, "among adults by days with physical symptoms,",         set_Years, sep = " "), label = paste("tab:phys", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Heart attack prevalence among adults by days with physical symptoms, 2013\label{tab:phys.Heart_Attack.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Days with physical symptoms}&&&&&\tabularnewline
+~~0-13 days&4.14 (3.50-4.79)&99,203&1.00&0.00&1.00\tabularnewline
+~~14 or more days&9.01 (6.93-11.0)&36,871&0.85&0.30&0.61\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% Mentally unhelathy %%%%%%%%%%%%%%
+ \newpage
+\begin{itemize}
+
+\item Heart attack prevalence among adults who reported feeling mentally unhealthy for more than 13 days in the last month was \ifthenelse{471 > 
+  601}{lower}{higher} when compared with their counterpart (Figure \ref{fig:mental.Heart_Attack.2013}).
+
+%\item set_Measure for this groups are presented in the Table \ref{tab:mental}.
+
+\item  Adults who felt mentally impaired for 14 or more days had 31\% less possibility of having heart attack prevalence when compared with those who answered 0-13 days. This difference was not significant (p-value $>$ 0.05). (See Table \ref{tab:mental.Heart_Attack.2013}).
+
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\caption{Heart attack prevalence among adults by days of frequent mental distress, 2013}
+\label{fig:mental.Heart_Attack.2013}
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Heart_Attack/Prevalence/Adult/2013mentdist-1} 
+
+}
+
+
+
+\end{knitrout}
+ \end{figure}
+
+%latex.default(tabl.mentdist, title = "Variables", file = "",     append = TRUE, rgroup = "Mentally Unhealthy", colhead = c("Prevalence",         "Cases (N)", "OR", "OR(SE)", "p-value"), longtable = F,     table.env = T, here = T, caption = paste(set_Measure, "among",         set_Population, "by days of frequent mental distress,",         set_Years, sep = " "), label = paste("tab:mental", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Heart attack prevalence among adults by days of frequent mental distress, 2013\label{tab:mental.Heart_Attack.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Mentally Unhealthy}&&&&&\tabularnewline
+~~0-13 days&4.71 (4.03-5.39)&113,163&1.00&0.00&1.00\tabularnewline
+~~14 or more days&6.01 (4.26-7.75)& 23,331&0.69&0.38&0.34\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+
+
+%%%%%%%%%%%%%%%%%%% poorhlcat %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+\begin{itemize}
+
+\item A \ifthenelse{
+ 521 > 
+  1029}{lower}{higher} 
+heart attack prevalence was observed among adults who were unable to perform their usual activities for 14 days or more due to physical or mental impairment, when compared with the other group. Refer to Figure \ref{fig:poor.Heart_Attack.2013}.
+
+
+
+\item Persons who could not conduct their usual daily activities for more than 14 days in the last month had 20\% more possibility of reporting heart attack when compared with those who felt this way for at most 13 days in the last 30.
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Heart attack prevalence among adults who were unable to conduct usual activities due to physical or mental impediment, 2013}
+\label{fig:poor.Heart_Attack.2013}
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Heart_Attack/Prevalence/Adult/2013poor-1} 
+
+}
+
+
+
+\end{knitrout}
+\end{figure}
+
+%latex.default(tabl.poorhlcat, title = "Variables", file = "",     append = TRUE, rgroup = "Activiy limitation", colhead = c("Prevalence",         "Cases (N)", "OR", "OR(SE)", "p-value"), longtable = F,     table.env = T, here = T, caption = paste(set_Measure, "among",         set_Population, "who were unable to cunduct usual activities due to physical or mental impairment,",         set_Years, sep = " "), label = paste("tab:poor", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Heart attack prevalence among adults who were unable to cunduct usual activities due to physical or mental impairment, 2013\label{tab:poor.Heart_Attack.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Activiy limitation}&&&&&\tabularnewline
+~~0-13 days&5.21 (4.13-6.30)&51,586&1.00&0.00&1.00\tabularnewline
+~~14 or more days&10.2 (7.31-13.2)&25,501&1.20&0.34&0.58\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%% unhlthy %%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{itemize}
+
+\item As seen in Figure \ref{fig:unhlthy.Heart_Attack.2013}, those adults who felt mentally or physically unhealthy for more than 14 days in the last 30 days, had \ifthenelse{
+4>
+7}{lower}{higher} 
+heart attack prevalence when compared with their counterpart.
+
+%\item The prevalence for those who felt mentally or fisically unhealthy is more than twice of the
+%prevalence of those who felt healthy for at least 14 days in the past 30(Table \ref{tab:unhlthy}).
+
+\item Those persons who felt mentally or physically unhealthy for more than 14 days in the last month had 4\% less possibility of reporting heart attack when compared with those who felt mentally or physically unhealthy for at most 13 days in the last 30 days. Data shown in Table \ref{tab:unhlthy.Heart_Attack.2013}.
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Heart attack prevalence among adults by unhealthy days, 2013}
+\label{fig:unhlthy.Heart_Attack.2013}
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Heart_Attack/Prevalence/Adult/2013unhealthy-1} 
+
+}
+
+
+
+\end{knitrout}
+\end{figure}
+
+%latex.default(tabl.unhlthy, title = "Variables", file = "", append = TRUE,     rgroup = "Unhealthy Days", colhead = c("Prevalence", "Cases (N)",         "OR", "OR(SE)", "p-value"), longtable = F, table.env = T,     here = T, caption = paste(set_Measure, "among", set_Population,         "by unhealthy days,", set_Years, sep = " "), label = paste("tab:unhlthy",         set_DiseaseF, set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Heart attack prevalence among adults by unhealthy days, 2013\label{tab:unhlthy.Heart_Attack.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Unhealthy Days}&&&&&\tabularnewline
+~~0-13 days&4.14 (3.45-4.83)&89,108&1.00&0.00&1.00\tabularnewline
+~~14 or more days&7.20 (5.73-8.66)&47,692&0.96&0.28&0.89\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+
+ \section{Remarks}
+
+An estimate of 289,917 
+(10.29\%) adult in Puerto Rico had heart attack prevalence as of the period of 2013.
+When evaluating by the socio-demographic variables, no specific group has been disproportionately affected with heart attack in age groups, educational level or marital status. With regards to gender the heart attack was 0.66 times higher in women. Although not statistically significant those in the household income range of 35k-50k and those in the range of more than 50k annually, had 0 and 0 respectively less possibility of heart attack prevalence that those  in group of those who receive less than 15k annually.
+
+Moving to the health related quality of life measures, the possibility of reporting heart attack prevalence in adults that perceived their health as fair or poor was 1.38 times higher than those who considered their health as good, very good or excellent. The adults who said that they felt physically bad for 14 days or more for the last 30 days had 0.85 times higher possibility of reporting heart attack prevalence than those less than 13 days. In the same manner, adults who felt mentally distressed for 14 days or more in a month had 0.69 times higher possibility of reporting heart attack prevalence than those less than 13 days feeling mentally distressed. From 1.6 million adults who were unable to carry on with their normal activities more than 14 days in a month, 7.20 (5.73-8.66) percent reported heart attack prevalence. 
+
+People who exercise, or are exposed to physical activities reported 0 \% higher risk of heart attack than those who don't.  Regarding body mass index (BMI), those obese and overweight had 0\% and 1\% respectively more possibility of heart attack prevalence than those neither obese nor overweight. The estimation of the heart attack prevalence on smokers was 5.15 (4.47-5.83) percent.  Adults with diabetes were \ensuremath{-1}\5 less likely to have heart attack prevalence than their counterpart.
+
+
+%\newpage
+%\vspace{1cm}
+
+Progress has been made in understanding the burden of heart attack in Puerto Rico. Advancements in the diagnose and treatment of the condition have had considerably improved in the last 20 years, but it is still an uncontrolled condition. The disclosed information is part of the effort of the Puerto Rico heart attack Project to provide an update of the state of heart attack in our country. The report presents information that can aid in the development of public policy, guide changes in the health care system, monitor population heart attack control, enhance educational materials, and guide all efforts to target factors of disparities as a way of reducing the morbidity and mortality associated with heart attack in Puerto Rico.
+
+%Summary tables
+\newpage
+\section{Summary tables}
+In this section we provide a set of summary tables of heart attack among adults Puerto Rico for the years 2013. The tables aggregate all the analysis conducted in this report for an easy to print and carry document for reference, or to be used as an annex for the preparation of other documents such as an application for funds. For the interpretation of each result, please refer to the corresponding section in the document.
+
+\subsection{Adults}
+
+ 
+%latex.default(object = SocioD.tabl, title = "Variables", file = "",     append = TRUE, rgroup = c("Age group", "Gender", "Escolarity",         "Household income", "Marital status", "Employment status"),     n.rgroup = c(6, 2, 4, 5, 6, 6), table.env = T, longtable = F,     here = T, caption = paste(set_Measure, " among adults by socio-demographic variables,",         set_Years, sep = " "), label = "tab:SocioD.tabl")%
+\begin{table}[H]
+\caption{Heart attack prevalence  among adults by socio-demographic variables, 2013\label{tab:SocioD.tabl}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Number}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Age group}&&&&&\tabularnewline
+~~18-24&1.17 (0.14-2.20)& 4,439&1.00&0.00&1.00\tabularnewline
+~~25-34&0.89 (0.15-1.63)& 4,377&0.59&0.65&0.43\tabularnewline
+~~35-44&1.61 (0.35-2.86)& 7,753&1.17&0.67&0.81\tabularnewline
+~~45-54&4.04 (2.55-5.53)&19,592&3.70&0.57&0.02\tabularnewline
+~~55-64&8.14 (6.05-10.2)&35,571&6.77&0.56&0.00\tabularnewline
+~~65+&11.9 (10.1-13.7)&65,066&9.21&0.58&0.00\tabularnewline
+\hline
+{\bfseries Gender}&&&&&\tabularnewline
+~~Males&5.24 (4.23-6.25)&69,184&1.00&0.00&1.00\tabularnewline
+~~Females&4.52 (3.74-5.30)&67,615&0.66&0.17&0.02\tabularnewline
+\hline
+{\bfseries Escolarity}&&&&&\tabularnewline
+~~Some High School&8.86 (7.16-10.5)&70,316&1.00&0.00&1.00\tabularnewline
+~~High School Graduate&3.84 (2.83-4.85)&28,092&0.66&0.21&0.05\tabularnewline
+~~Some University&2.83 (1.95-3.72)&20,189&0.68&0.22&0.08\tabularnewline
+~~University Graduate&2.81 (2.01-3.62)&16,089&0.80&0.26&0.41\tabularnewline
+\hline
+{\bfseries Household income}&&&&&\tabularnewline
+~~\textless15k&6.31 (5.19-7.44)&76,016&1.00&0.00&1.00\tabularnewline
+~~15k-\textless25k&4.06 (2.94-5.18)&26,321&0.92&0.18&0.67\tabularnewline
+~~25k-\textless35k&3.15 (1.35-4.95)& 6,352&0.77&0.34&0.46\tabularnewline
+~~35k-\textless50k&1.64 (0.08-3.21)& 2,403&0.50&0.52&0.19\tabularnewline
+~~50+k&1.68 (0.52-2.83)& 2,391&0.50&0.42&0.11\tabularnewline
+\hline
+{\bfseries Marital status}&&&&&\tabularnewline
+~~Married&5.42 (4.45-6.40)&58,894&1.00&0.00&1.00\tabularnewline
+~~Divorced&3.76 (2.32-5.20)&19,888&0.70&0.26&0.18\tabularnewline
+~~Widowed&10.8 (8.23-13.4)&32,165&1.27&0.19&0.21\tabularnewline
+~~Separated&3.39 (0.98-5.81)& 8,121&0.76&0.40&0.51\tabularnewline
+~~Never Married&1.68 (0.77-2.60)& 8,308&1.10&0.32&0.76\tabularnewline
+~~Unmarried Couple&4.42 (2.38-6.46)& 7,309&2.14&0.30&0.01\tabularnewline
+\hline
+{\bfseries Employment status}&&&&&\tabularnewline
+~~Employed&1.74 (1.12-2.36)& 4,439&1.00&0.00&1.00\tabularnewline
+~~Out of work&4.36 (1.88-6.84)& 4,377&2.21&0.39&0.04\tabularnewline
+~~Homework&5.14 (3.74-6.55)& 7,753&1.18&0.31&0.59\tabularnewline
+~~Student&1.29 (0.00-2.81)&19,592&1.89&0.85&0.45\tabularnewline
+~~Retired&10.3 (8.51-12.2)&35,571&1.38&0.28&0.25\tabularnewline
+~~Unable to work&10.5 (7.41-13.7)&65,066&2.15&0.29&0.00\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+ 
+
+ 
+%latex.default(object = hrqol.tabl, title = "Variables", file = "",     append = TRUE, rgroup = c("Health perception", "Physical unhealthy",         "Mental unhealthy", "Activity limitation", "Physical and mental unhealthy"),     n.rgroup = c(2, 2, 2, 2, 2), rowname = c("Very Good", "Fair / Poor",         rep(c("0-13 days", "14 or more days"), 4)), table.env = T,     here = T, caption = paste(set_Measure, " among adults by health related quality of life variables,",         set_Years, sep = " "), label = "tab:hrqol.tabl")%
+\begin{table}[H]
+\caption{Heart attack prevalence  among adults by health related quality of life variables, 2013\label{tab:hrqol.tabl}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Number}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Health perception}&&&&&\tabularnewline
+~~Very Good&2.19 (1.63-2.75)&39,829&1.00&0.00&1.00\tabularnewline
+~~Fair / Poor&9.73 (8.30-11.1)&96,742&1.38&0.25&0.20\tabularnewline
+\hline
+{\bfseries Physical unhealthy}&&&&&\tabularnewline
+~~0-13 days&4.14 (3.50-4.79)&99,203&1.00&0.00&1.00\tabularnewline
+~~14 or more days&9.01 (6.93-11.0)&36,871&0.85&0.30&0.61\tabularnewline
+\hline
+{\bfseries Mental unhealthy}&&&&&\tabularnewline
+~~0-13 days&4.71 (4.03-5.39)&113,163&1.00&0.00&1.00\tabularnewline
+~~14 or more days&6.01 (4.26-7.75)& 23,331&0.69&0.38&0.34\tabularnewline
+\hline
+{\bfseries Activity limitation}&&&&&\tabularnewline
+~~0-13 days&5.21 (4.13-6.30)&51,586&1.00&0.00&1.00\tabularnewline
+~~14 or more days&10.2 (7.31-13.2)&25,501&1.20&0.34&0.58\tabularnewline
+\hline
+{\bfseries Physical and mental unhealthy}&&&&&\tabularnewline
+~~0-13 days&4.14 (3.45-4.83)&89,108&1.00&0.00&1.00\tabularnewline
+~~14 or more days&7.20 (5.73-8.66)&47,692&0.96&0.28&0.89\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+ 
+
+ 
+%latex.default(object = riskComo.tabl, title = "Variables", file = "",     append = TRUE, rgroup = c("Exercise", "BMI", "Tobacco Use",         "Any chronic condition"), n.rgroup = c(2, 3, 2, 2), rowname = c("Yes",         "No", "Neither", "Overweight", "Obese", "Yes", "No",         "Yes", "No"), table.env = T, here = T, caption = paste(set_Measure,         " among adults by risk and comorbidity variables,", set_Years,         sep = " "), label = "tab:riskComo.tabl")%
+\begin{table}[H]
+\caption{Heart attack prevalence  among adults by risk and comorbidity variables, 2013\label{tab:riskComo.tabl}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Number}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Exercise}&&&&&\tabularnewline
+~~Yes&4.63 (3.70-5.56)&66,601&1.00&0.00&1.00\tabularnewline
+~~No&5.26 (4.38-6.13)&69,888&0.75&0.19&0.14\tabularnewline
+\hline
+{\bfseries BMI}&&&&&\tabularnewline
+~~Neither&5.33 (0.21-10.4)& 3,458&1.00&0.00&1.00\tabularnewline
+~~Overweight&3.71 (2.59-4.83)&31,075&0.96&0.66&0.95\tabularnewline
+~~Obese&5.22 (4.17-6.27)&54,609&0.97&0.65&0.97\tabularnewline
+\hline
+{\bfseries Tobacco Use}&&&&&\tabularnewline
+~~Yes&5.15 (4.47-5.83)&128,313&1.00&0.00&1.00\tabularnewline
+~~No&2.82 (1.12-4.51)&  8,486&0.46&0.44&0.08\tabularnewline
+\hline
+{\bfseries Any chronic condition}&&&&&\tabularnewline
+~~Yes&0 (0-0)&      0&1.00&0.00&1.00\tabularnewline
+~~No&21.3 (18.8-23.8)&136,799&2920&0.55&0.00\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+

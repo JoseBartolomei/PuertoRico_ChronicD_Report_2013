@@ -1,0 +1,736 @@
+
+%----------------------------------------------------------------------------------------
+%            RESULTS
+%----------------------------------------------------------------------------------------
+
+\newpage
+\section{Results: Diabetes among adults}
+
+\subsection{Overall}
+
+%----------------------------FIRST FIGURE------------------------------------------------
+
+% \subsection*{Overall Prevalence}
+
+
+%latex.default(object = Overall.tabl[, c(-1, -2)], title = "Group",     file = "", rowname = c("Adults"), colhead = c("Prevalence",         "Cases", "Sample Size"), append = TRUE, table.env = T,     here = T, caption = paste(set_Measure, " among adults in ",         set_Country, ", ", set_Years, sep = ""), label = paste("tab:Overall.tabl",         set_DiseaseF, set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Diabetes prevalence among adults in Puerto Rico, 2013\label{tab:Overall.tabl.Diabetes.2013}} 
+\begin{center}
+\begin{tabular}{llll}
+\hline\hline
+\multicolumn{1}{l}{Group}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases}&\multicolumn{1}{c}{Sample Size}\tabularnewline
+\hline
+Adults&14.88 (13.81-15.95)&418,229&6,011\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{itemize}
+
+
+\item The Diabetes prevalence for the year 2013 among adults in Puerto Rico was 14.8 (13.8-15.9) percent, 
+Table \ref{tab:Overall.tabl.Diabetes.2013}.
+
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%                     Definition of matrices for the tables                  %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\subsection{Socio-demographics}
+
+\begin{itemize}
+
+\item Figure \ref{fig:age.Diabetes.2013} shows that the diabetes prevalence for the age group of
+65+
+was higher when compared with the other groups.
+
+\item Adults in the age group of 35-44, 45-54, 55-64, 65+ had 5.94 times more possibility, 9.49 times more possibility, 14.9 times more possibility, 20.3 times more possibility, respectively, of reporting diabetes prevalence when compared with the 18-24 group. This differences were significant (p-value $<$ 0.05). See Table \ref{tab:age.Diabetes.2013}.
+
+
+\end{itemize}
+
+
+\begin{figure}[H]
+\caption{Diabetes prevalence among adults by age group, 
+2013}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Diabetes/Prevalence/Adult/2013ageg2-1} 
+
+}
+
+
+
+\end{knitrout}
+\label{fig:age.Diabetes.2013}
+\end{figure}
+
+%latex.default(tabl.ageg2, title = "Variables", file = "", append = TRUE,     rgroup = "Age group", colhead = c("Prevalence", "Cases (N)",         "OR", "OR(SE)", "p-value"), longtable = F, table.env = T,     here = T, caption = paste(set_Measure, " among adults by age group,",         set_Years, sep = " "), label = paste("tab:age", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Diabetes prevalence  among adults by age group, 2013\label{tab:age.Diabetes.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Age group}&&&&&\tabularnewline
+~~18-24&0.98 (0.10-1.86)&  3,710&1.00&0.00&1.00\tabularnewline
+~~25-34&2.47 (0.99-3.96)& 12,056&1.69&0.55&0.34\tabularnewline
+~~35-44&8.36 (5.63-11.0)& 40,322&5.94&0.50&0.00\tabularnewline
+~~45-54&13.5 (10.8-16.2)& 65,561&9.49&0.49&0.00\tabularnewline
+~~55-64&23.5 (20.4-26.6)&102,585&14.9&0.49&0.00\tabularnewline
+~~65+&35.5 (32.8-38.1)&193,995&20.3&0.49&0.00\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+
+\newpage
+\begin{itemize}
+
+\item Figure \ref{fig:sex.Diabetes.2013} shows that males had a \ifthenelse{
+1396 < 1568}{lower}{higher}
+diabetes prevalence when compared with females.
+
+%\item Table \ref{tab:sex} shows the estimates for persons living with set_Disease in 
+%set_Country with it 95\% confidence interval.
+
+\item Among adults, females had 3\% less possibility of reporting diabetes prevalence when compared with males. This difference was not significant (p-value $>$ 0.05). See Table \ref{tab:sex.Diabetes.2013}.
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Diabetes prevalence among adults by sex group, 
+2013}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Diabetes/Prevalence/Adult/2013sex-1} 
+
+}
+
+
+
+\end{knitrout}
+\label{fig:sex.Diabetes.2013}
+\end{figure}
+
+%latex.default(tabl.sex, title = "Variables", file = "", append = TRUE,     rgroup = "Sex group", colhead = c("Prevalence", "Cases (N)",         "OR", "OR(SE)", "p-value"), longtable = F, table.env = T,     here = T, caption = paste(set_Measure, " among adults by sex group,",         set_Years, sep = " "), label = paste("tab:sex", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Diabetes prevalence  among adults by sex group, 2013\label{tab:sex.Diabetes.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Sex group}&&&&&\tabularnewline
+~~Males&13.9 (12.3-15.6)&183,567&1.00&0.00&1.00\tabularnewline
+~~Females&15.6 (14.3-17.0)&234,661&0.97&0.11&0.82\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+
+%###################### educag ####################
+\newpage
+\begin{itemize}
+
+\item When comparing by education level, those with
+some high school
+have the highest diabetes prevalence. A 25\% of the diabetes prevalence patients had some high school.
+(Figure \ref{fig:edu.Diabetes.2013}).
+
+\item 
+When observing the adjusted odds ratio the group university graduate had 37\% less possibility of reporting diabetes prevalence than the comparison group (Some High School).
+This difference was significant (p-value $<$ 0.05).  Data shown in Table \ref{tab:edu.Diabetes.2013}.
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Diabetes prevalence among adults by education levels, 
+         2013}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Diabetes/Prevalence/Adult/2013educag-1} 
+
+}
+
+
+
+\end{knitrout}
+ \label{fig:edu.Diabetes.2013}
+\end{figure}
+
+%latex.default(tabl.educag3, title = "Variables", file = "", append = TRUE,     rgroup = "Education group", colhead = c("Prevalence", "Cases (N)",         "OR", "OR(SE)", "p-value"), longtable = F, table.env = T,     here = T, caption = paste(set_Measure, " among adults by education levels,",         set_Years, sep = " "), label = paste("tab:edu", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Diabetes prevalence  among adults by education levels, 2013\label{tab:edu.Diabetes.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Education group}&&&&&\tabularnewline
+~~Some High School&25.4 (22.7-28.2)&202,434&1.00&0.00&1.00\tabularnewline
+~~High School Graduate&14.5 (12.5-16.6)&105,865&0.94&0.14&0.67\tabularnewline
+~~Some University&8.92 (7.38-10.4)& 63,386&0.76&0.15&0.08\tabularnewline
+~~University Graduate&8.02 (6.73-9.31)& 45,863&0.63&0.17&0.01\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+ 
+ 
+ \newpage
+\begin{itemize}
+
+\item Figure \ref{fig:income.Diabetes.2013} shows that adults whose annual household income is 
+$<$15k, have a diabetes prevalence higher than the other income groups.
+
+\item Those in the range of 50+k had 34\% less possibility of reporting diabetes than those whose annual income is less than \$ 14,999. This difference was not significant (p-value $>$ 0.05).  For further information, refer to Table \ref{tab:income.Diabetes.2013}.
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Diabetes prevalence among adults by household income levels, 
+         2013}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Diabetes/Prevalence/Adult/2013incomg-1} 
+
+}
+
+
+
+\end{knitrout}
+ \label{fig:income.Diabetes.2013}
+\end{figure}
+
+%latex.default(tabl.incomg, title = "Variables", file = "", append = TRUE,     rgroup = "Income group", colhead = c("Prevalence", "Cases (N)",         "OR", "OR(SE)", "p-value"), longtable = F, table.env = T,     here = T, caption = paste(set_Measure, " among adults by income levels,",         set_Years, sep = " "), label = paste("tab:income", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Diabetes prevalence  among adults by income levels, 2013\label{tab:income.Diabetes.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Income group}&&&&&\tabularnewline
+~~\textless15k&18.5 (16.7-20.4)&223,365&1.00&0.00&1.00\tabularnewline
+~~15k-\textless25k&12.1 (10.0-14.2)& 78,437&0.84&0.13&0.23\tabularnewline
+~~25k-\textless35k&11.3 (8.44-14.3)& 22,934&0.90&0.19&0.60\tabularnewline
+~~35k-\textless50k&8.63 (5.41-11.8)& 12,497&0.87&0.26&0.61\tabularnewline
+~~50+k&6.28 (4.10-8.46)&  8,948&0.66&0.23&0.08\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+%%%%%%%%%%%%%%%%% Marial Status %%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+\begin{itemize}
+
+\item Adults who were 
+widowed at the time of the interview, had the highest diabetes among marital status. Refer to figure \ref{fig:marital.Diabetes.2013}.
+
+\item Those who were separated had 53\% less possibility of having diabetes prevalence when compared with those who responded being married. This difference was significant (p-value $<$ 0.05). Refere to Table \ref{tab:marital.Diabetes.2013}.
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Diabetes prevalence among adults by marital status,
+         2013}
+\label{fig:marital.Diabetes.2013}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Diabetes/Prevalence/Adult/2013marital2-1} 
+
+}
+
+
+
+\end{knitrout}
+ \end{figure}
+
+%latex.default(tabl.marital, title = "Variables", file = "", append = TRUE,     rgroup = "Marital group", colhead = c("Prevalence", "Cases (N)",         "OR", "OR(SE)", "p-value"), longtable = F, table.env = T,     here = T, caption = paste(set_Measure, " among adults by marital status,",         set_Years, sep = " "), label = paste("tab:marital", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Diabetes prevalence  among adults by marital status, 2013\label{tab:marital.Diabetes.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Marital group}&&&&&\tabularnewline
+~~Married&18.0 (16.3-19.7)&195,657&1.00&0.00&1.00\tabularnewline
+~~Divorced&14.6 (11.5-17.6)& 76,977&0.76&0.16&0.11\tabularnewline
+~~Widowed&29.7 (25.6-33.9)& 88,654&0.76&0.15&0.08\tabularnewline
+~~Separated&9.01 (5.68-12.3)& 21,446&0.47&0.24&0.00\tabularnewline
+~~Never Married&4.66 (3.32-6.00)& 22,882&1.19&0.20&0.39\tabularnewline
+~~Unmarried Couple&7.63 (5.15-10.1)& 12,613&0.90&0.22&0.64\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+ 
+%%%%%%%%%%%%%%%%%% employment status %%%%%%%%%%
+ \newpage
+\begin{itemize}
+
+
+\item Those adults who were 
+retired at the moment of the interview, had the highest diabetes prevalence (Figure \ref{fig:employ.Diabetes.2013}).
+
+\item Adults who were homework, retired, unable to work had 1.97 times more possibility, 2.06 times more possibility, 2.27 times more possibility, respectively, of reporting diabetes prevalence when compared with those who responded being employed. This differences were significant (p-value $<$ 0.05). 
+Data shown in Table \ref{tab:employ.Diabetes.2013}.
+
+%\item Those who are rownames(t.asma.current.socio)[24], 
+%rownames(t.asma.current.socio)[25], rownames(t.asma.current.socio)[26] or,
+%rownames(t.asma.current.socio)[27] have the same set_Measure in statistical terms.
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Diabetes prevalence among adults by employment status, 
+         2013}
+\label{fig:employ.Diabetes.2013}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Diabetes/Prevalence/Adult/2013employ-1} 
+
+}
+
+
+
+\end{knitrout}
+ \end{figure}
+
+%latex.default(tabl.emplrec2, title = "Variables", file = "",     append = TRUE, rgroup = "Employment status", colhead = c("Prevalence",         "Cases (N)", "OR", "OR(SE)", "p-value"), longtable = F,     table.env = T, here = T, caption = paste(set_Measure, " among adults by employment status,",         set_Years, sep = " "), label = paste("tab:employ", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Diabetes prevalence  among adults by employment status, 2013\label{tab:employ.Diabetes.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Employment status}&&&&&\tabularnewline
+~~Employed&6.24 (4.99-7.50)&  3,710&1.00&0.00&1.00\tabularnewline
+~~Out of work&7.62 (4.63-10.6)& 12,056&1.24&0.27&0.41\tabularnewline
+~~Homework&20.6 (17.7-23.4)& 40,322&1.97&0.19&0.00\tabularnewline
+~~Student&0.72 (0.00-1.84)& 65,561&0.64&0.84&0.60\tabularnewline
+~~Retired&33.0 (30.0-36.0)&102,585&2.06&0.18&0.00\tabularnewline
+~~Unable to work&26.3 (21.5-31.0)&193,995&2.27&0.20&0.00\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+
+%%%%%%%%%%%%%%%% HRQOL %%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+\subsection{Health related quality of life}
+
+
+ \begin{itemize}
+
+\item Figure \ref{fig:fairpoor.Diabetes.2013} shows that diabetes prevalence  was 
+\ifthenelse{
+ 706 < 
+  2901}{higher}{lower} in persons who perceive their health has fair / poor,
+than those who claim to have a very good health.
+
+\item Adults who perceive their health as fair or poor had 11\% less possibility of reporting diabetes prevalence when compared with those who perceived their health as very good. This difference was not significant (p-value $>$ 0.05). Data shown in Table \ref{tab:fairpoor.Diabetes.2013}.
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Diabetes prevalence among adults according to health perception,
+         2013}
+\label{fig:fairpoor.Diabetes.2013}
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Diabetes/Prevalence/Adult/2013poorh-1} 
+
+}
+
+
+
+\end{knitrout}
+ \end{figure}
+
+%latex.default(tabl.fairpoor, title = "Variables", file = "",     append = TRUE, rgroup = "Health Perception", colhead = c("Prevalence",         "Cases (N)", "OR", "OR(SE)", "p-value"), longtable = F,     table.env = T, here = T, caption = paste(set_Measure, " among adults according to health perception,",         set_Years, sep = " "), label = paste("tab:fairpoor",         set_DiseaseF, set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Diabetes prevalence  among adults according to health perception, 2013\label{tab:fairpoor.Diabetes.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Health Perception}&&&&&\tabularnewline
+~~Very Good&7.06 (6.09-8.03)&128,057&1.00&0.00&1.00\tabularnewline
+~~Fair / Poor&29.0 (26.7-31.3)&288,091&0.89&0.22&0.63\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+ 
+\newpage
+
+%%%%%%%%%%%%% physical unhealthy %%%%%%%%%%%%
+ \newpage
+\begin{itemize}
+
+\item Adults who reported being physically unhealthy for 14 days or more in the past 30 days, had an diabetes that was 
+\ifthenelse{
+ 1284 >
+  2654}{lower}{higher} when compared with 
+those who reported being physically unhealthy for less than 13 days in the last 30 days.
+
+%\item Table \ref{tab:phys} shows the estimations of the set_Measure.
+
+\item Adults who felt physically impaired for 14 days or more had 8\% less possibility of reporting having diabetes at the moment of the interview, when compared with those who felt physically impaired for 13 days or less (See Table \ref{tab:phys.Diabetes.2013}).
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Diabetes prevalence among adults according to physical health perception, 2013}
+\label{fig:phys.Diabetes.2013}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Diabetes/Prevalence/Adult/2013physchlcat-1} 
+
+}
+
+
+
+\end{knitrout}
+ \end{figure}
+
+%latex.default(tabl.physhlcat, title = "Variables", file = "",     append = TRUE, rgroup = "Days with physical symptoms", colhead = c("Prevalence",         "Cases (N)", "OR", "OR(SE)", "p-value"), longtable = F,     table.env = T, here = T, caption = paste(set_Measure, "among adults by days with physical symptoms,",         set_Years, sep = " "), label = paste("tab:phys", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Diabetes prevalence among adults by days with physical symptoms, 2013\label{tab:phys.Diabetes.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Days with physical symptoms}&&&&&\tabularnewline
+~~0-13 days&12.8 (11.7-13.9)&306,908&1.00&0.00&1.00\tabularnewline
+~~14 or more days&26.5 (23.0-30.0)&108,843&0.92&0.22&0.72\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% Mentally unhelathy %%%%%%%%%%%%%%
+ \newpage
+\begin{itemize}
+
+\item Diabetes prevalence among adults who reported feeling mentally unhealthy for more than 13 days in the last month was \ifthenelse{1435 > 
+  1803}{lower}{higher} when compared with their counterpart (Figure \ref{fig:mental.Diabetes.2013}).
+
+%\item set_Measure for this groups are presented in the Table \ref{tab:mental}.
+
+\item  Adults who felt mentally impaired for 14 or more days had 40\% less possibility of having diabetes prevalence when compared with those who answered 0-13 days. This difference was not significant (p-value $>$ 0.05). (See Table \ref{tab:mental.Diabetes.2013}).
+
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\caption{Diabetes prevalence among adults by days of frequent mental distress, 2013}
+\label{fig:mental.Diabetes.2013}
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Diabetes/Prevalence/Adult/2013mentdist-1} 
+
+}
+
+
+
+\end{knitrout}
+ \end{figure}
+
+%latex.default(tabl.mentdist, title = "Variables", file = "",     append = TRUE, rgroup = "Mentally Unhealthy", colhead = c("Prevalence",         "Cases (N)", "OR", "OR(SE)", "p-value"), longtable = F,     table.env = T, here = T, caption = paste(set_Measure, "among",         set_Population, "by days of frequent mental distress,",         set_Years, sep = " "), label = paste("tab:mental", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Diabetes prevalence among adults by days of frequent mental distress, 2013\label{tab:mental.Diabetes.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Mentally Unhealthy}&&&&&\tabularnewline
+~~0-13 days&14.3 (13.2-15.4)&344,215&1.00&0.00&1.00\tabularnewline
+~~14 or more days&18.0 (14.7-21.2)& 69,979&0.60&0.28&0.08\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+
+
+%%%%%%%%%%%%%%%%%%% poorhlcat %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+\begin{itemize}
+
+\item A \ifthenelse{
+ 1490 > 
+  2399}{lower}{higher} 
+diabetes prevalence was observed among adults who were unable to perform their usual activities for 14 days or more due to physical or mental impairment, when compared with the other group. Refer to Figure \ref{fig:poor.Diabetes.2013}.
+
+
+
+\item Persons who could not conduct their usual daily activities for more than 14 days in the last month had 6\% less possibility of reporting diabetes when compared with those who felt this way for at most 13 days in the last 30.
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Diabetes prevalence among adults who were unable to conduct usual activities due to physical or mental impediment, 2013}
+\label{fig:poor.Diabetes.2013}
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Diabetes/Prevalence/Adult/2013poor-1} 
+
+}
+
+
+
+\end{knitrout}
+\end{figure}
+
+%latex.default(tabl.poorhlcat, title = "Variables", file = "",     append = TRUE, rgroup = "Activiy limitation", colhead = c("Prevalence",         "Cases (N)", "OR", "OR(SE)", "p-value"), longtable = F,     table.env = T, here = T, caption = paste(set_Measure, "among",         set_Population, "who were unable to cunduct usual activities due to physical or mental impairment,",         set_Years, sep = " "), label = paste("tab:poor", set_DiseaseF,         set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Diabetes prevalence among adults who were unable to cunduct usual activities due to physical or mental impairment, 2013\label{tab:poor.Diabetes.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Activiy limitation}&&&&&\tabularnewline
+~~0-13 days&14.9 (13.1-16.6)&147,138&1.00&0.00&1.00\tabularnewline
+~~14 or more days&23.9 (19.6-28.3)& 59,389&0.94&0.30&0.84\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%% unhlthy %%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{itemize}
+
+\item As seen in Figure \ref{fig:unhlthy.Diabetes.2013}, those adults who felt mentally or physically unhealthy for more than 14 days in the last 30 days, had \ifthenelse{
+13>
+20}{lower}{higher} 
+diabetes prevalence when compared with their counterpart.
+
+%\item The prevalence for those who felt mentally or fisically unhealthy is more than twice of the
+%prevalence of those who felt healthy for at least 14 days in the past 30(Table \ref{tab:unhlthy}).
+
+\item Those persons who felt mentally or physically unhealthy for more than 14 days in the last month had 22\% less possibility of reporting diabetes when compared with those who felt mentally or physically unhealthy for at most 13 days in the last 30 days. Data shown in Table \ref{tab:unhlthy.Diabetes.2013}.
+
+\end{itemize}
+
+\begin{figure}[H]
+\caption{Diabetes prevalence among adults by unhealthy days, 2013}
+\label{fig:unhlthy.Diabetes.2013}
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+
+{\centering \includegraphics[width=\maxwidth]{/media/truecrypt2/ORP2/BRFSS/Objects/Country/Puerto_Rico/Disease/Diabetes/Prevalence/Adult/2013unhealthy-1} 
+
+}
+
+
+
+\end{knitrout}
+\end{figure}
+
+%latex.default(tabl.unhlthy, title = "Variables", file = "", append = TRUE,     rgroup = "Unhealthy Days", colhead = c("Prevalence", "Cases (N)",         "OR", "OR(SE)", "p-value"), longtable = F, table.env = T,     here = T, caption = paste(set_Measure, "among", set_Population,         "by unhealthy days,", set_Years, sep = " "), label = paste("tab:unhlthy",         set_DiseaseF, set_Years, sep = "."))%
+\begin{table}[H]
+\caption{Diabetes prevalence among adults by unhealthy days, 2013\label{tab:unhlthy.Diabetes.2013}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Unhealthy Days}&&&&&\tabularnewline
+~~0-13 days&13.0 (11.8-14.1)&279,489&1.00&0.00&1.00\tabularnewline
+~~14 or more days&20.9 (18.4-23.4)&138,740&0.78&0.22&0.27\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+
+ \section{Remarks}
+
+An estimate of 289,917 
+(10.29\%) adult in Puerto Rico had diabetes prevalence as of the period of 2013.
+When evaluating by the socio-demographic variables, no specific group has been disproportionately affected with diabetes in age groups, educational level or marital status. With regards to gender the diabetes was 0.97 times higher in women. Although not statistically significant those in the household income range of 35k-50k and those in the range of more than 50k annually, had \ensuremath{-2} and 0 respectively less possibility of diabetes prevalence that those  in group of those who receive less than 15k annually.
+
+Moving to the health related quality of life measures, the possibility of reporting diabetes prevalence in adults that perceived their health as fair or poor was 0.89 times higher than those who considered their health as good, very good or excellent. The adults who said that they felt physically bad for 14 days or more for the last 30 days had 0.92 times higher possibility of reporting diabetes prevalence than those less than 13 days. In the same manner, adults who felt mentally distressed for 14 days or more in a month had 0.60 times higher possibility of reporting diabetes prevalence than those less than 13 days feeling mentally distressed. From 1.6 million adults who were unable to carry on with their normal activities more than 14 days in a month, 20.9 (18.4-23.4) percent reported diabetes prevalence. 
+
+People who exercise, or are exposed to physical activities reported \ensuremath{-1} \% higher risk of diabetes than those who don't.  Regarding body mass index (BMI), those obese and overweight had \ensuremath{-1}\% and 2\% respectively more possibility of diabetes prevalence than those neither obese nor overweight. The estimation of the diabetes prevalence on smokers was 15.5 (14.4-16.7) percent.  Adults with diabetes were 0\5 less likely to have diabetes prevalence than their counterpart.
+
+
+%\newpage
+%\vspace{1cm}
+
+Progress has been made in understanding the burden of diabetes in Puerto Rico. Advancements in the diagnose and treatment of the condition have had considerably improved in the last 20 years, but it is still an uncontrolled condition. The disclosed information is part of the effort of the Puerto Rico diabetes Project to provide an update of the state of diabetes in our country. The report presents information that can aid in the development of public policy, guide changes in the health care system, monitor population diabetes control, enhance educational materials, and guide all efforts to target factors of disparities as a way of reducing the morbidity and mortality associated with diabetes in Puerto Rico.
+
+%Summary tables
+\newpage
+\section{Summary tables}
+In this section we provide a set of summary tables of diabetes among adults Puerto Rico for the years 2013. The tables aggregate all the analysis conducted in this report for an easy to print and carry document for reference, or to be used as an annex for the preparation of other documents such as an application for funds. For the interpretation of each result, please refer to the corresponding section in the document.
+
+\subsection{Adults}
+
+ 
+%latex.default(object = SocioD.tabl, title = "Variables", file = "",     append = TRUE, rgroup = c("Age group", "Gender", "Escolarity",         "Household income", "Marital status", "Employment status"),     n.rgroup = c(6, 2, 4, 5, 6, 6), table.env = T, longtable = F,     here = T, caption = paste(set_Measure, " among adults by socio-demographic variables,",         set_Years, sep = " "), label = "tab:SocioD.tabl")%
+\begin{table}[H]
+\caption{Diabetes prevalence  among adults by socio-demographic variables, 2013\label{tab:SocioD.tabl}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Number}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Age group}&&&&&\tabularnewline
+~~18-24&0.98 (0.10-1.86)&  3,710&1.00&0.00&1.00\tabularnewline
+~~25-34&2.47 (0.99-3.96)& 12,056&1.69&0.55&0.34\tabularnewline
+~~35-44&8.36 (5.63-11.0)& 40,322&5.94&0.50&0.00\tabularnewline
+~~45-54&13.5 (10.8-16.2)& 65,561&9.49&0.49&0.00\tabularnewline
+~~55-64&23.5 (20.4-26.6)&102,585&14.9&0.49&0.00\tabularnewline
+~~65+&35.5 (32.8-38.1)&193,995&20.3&0.49&0.00\tabularnewline
+\hline
+{\bfseries Gender}&&&&&\tabularnewline
+~~Males&13.9 (12.3-15.6)&183,567&1.00&0.00&1.00\tabularnewline
+~~Females&15.6 (14.3-17.0)&234,661&0.97&0.11&0.82\tabularnewline
+\hline
+{\bfseries Escolarity}&&&&&\tabularnewline
+~~Some High School&25.4 (22.7-28.2)&202,434&1.00&0.00&1.00\tabularnewline
+~~High School Graduate&14.5 (12.5-16.6)&105,865&0.94&0.14&0.67\tabularnewline
+~~Some University&8.92 (7.38-10.4)& 63,386&0.76&0.15&0.08\tabularnewline
+~~University Graduate&8.02 (6.73-9.31)& 45,863&0.63&0.17&0.01\tabularnewline
+\hline
+{\bfseries Household income}&&&&&\tabularnewline
+~~\textless15k&18.5 (16.7-20.4)&223,365&1.00&0.00&1.00\tabularnewline
+~~15k-\textless25k&12.1 (10.0-14.2)& 78,437&0.84&0.13&0.23\tabularnewline
+~~25k-\textless35k&11.3 (8.44-14.3)& 22,934&0.90&0.19&0.60\tabularnewline
+~~35k-\textless50k&8.63 (5.41-11.8)& 12,497&0.87&0.26&0.61\tabularnewline
+~~50+k&6.28 (4.10-8.46)&  8,948&0.66&0.23&0.08\tabularnewline
+\hline
+{\bfseries Marital status}&&&&&\tabularnewline
+~~Married&18.0 (16.3-19.7)&195,657&1.00&0.00&1.00\tabularnewline
+~~Divorced&14.6 (11.5-17.6)& 76,977&0.76&0.16&0.11\tabularnewline
+~~Widowed&29.7 (25.6-33.9)& 88,654&0.76&0.15&0.08\tabularnewline
+~~Separated&9.01 (5.68-12.3)& 21,446&0.47&0.24&0.00\tabularnewline
+~~Never Married&4.66 (3.32-6.00)& 22,882&1.19&0.20&0.39\tabularnewline
+~~Unmarried Couple&7.63 (5.15-10.1)& 12,613&0.90&0.22&0.64\tabularnewline
+\hline
+{\bfseries Employment status}&&&&&\tabularnewline
+~~Employed&6.24 (4.99-7.50)&  3,710&1.00&0.00&1.00\tabularnewline
+~~Out of work&7.62 (4.63-10.6)& 12,056&1.24&0.27&0.41\tabularnewline
+~~Homework&20.6 (17.7-23.4)& 40,322&1.97&0.19&0.00\tabularnewline
+~~Student&0.72 (0.00-1.84)& 65,561&0.64&0.84&0.60\tabularnewline
+~~Retired&33.0 (30.0-36.0)&102,585&2.06&0.18&0.00\tabularnewline
+~~Unable to work&26.3 (21.5-31.0)&193,995&2.27&0.20&0.00\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+ 
+
+ 
+%latex.default(object = hrqol.tabl, title = "Variables", file = "",     append = TRUE, rgroup = c("Health perception", "Physical unhealthy",         "Mental unhealthy", "Activity limitation", "Physical and mental unhealthy"),     n.rgroup = c(2, 2, 2, 2, 2), rowname = c("Very Good", "Fair / Poor",         rep(c("0-13 days", "14 or more days"), 4)), table.env = T,     here = T, caption = paste(set_Measure, " among adults by health related quality of life variables,",         set_Years, sep = " "), label = "tab:hrqol.tabl")%
+\begin{table}[H]
+\caption{Diabetes prevalence  among adults by health related quality of life variables, 2013\label{tab:hrqol.tabl}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Number}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Health perception}&&&&&\tabularnewline
+~~Very Good&7.06 (6.09-8.03)&128,057&1.00&0.00&1.00\tabularnewline
+~~Fair / Poor&29.0 (26.7-31.3)&288,091&0.89&0.22&0.63\tabularnewline
+\hline
+{\bfseries Physical unhealthy}&&&&&\tabularnewline
+~~0-13 days&12.8 (11.7-13.9)&306,908&1.00&0.00&1.00\tabularnewline
+~~14 or more days&26.5 (23.0-30.0)&108,843&0.92&0.22&0.72\tabularnewline
+\hline
+{\bfseries Mental unhealthy}&&&&&\tabularnewline
+~~0-13 days&14.3 (13.2-15.4)&344,215&1.00&0.00&1.00\tabularnewline
+~~14 or more days&18.0 (14.7-21.2)& 69,979&0.60&0.28&0.08\tabularnewline
+\hline
+{\bfseries Activity limitation}&&&&&\tabularnewline
+~~0-13 days&14.9 (13.1-16.6)&147,138&1.00&0.00&1.00\tabularnewline
+~~14 or more days&23.9 (19.6-28.3)& 59,389&0.94&0.30&0.84\tabularnewline
+\hline
+{\bfseries Physical and mental unhealthy}&&&&&\tabularnewline
+~~0-13 days&13.0 (11.8-14.1)&279,489&1.00&0.00&1.00\tabularnewline
+~~14 or more days&20.9 (18.4-23.4)&138,740&0.78&0.22&0.27\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+ 
+
+ 
+%latex.default(object = riskComo.tabl, title = "Variables", file = "",     append = TRUE, rgroup = c("Exercise", "BMI", "Tobacco Use",         "Any chronic condition"), n.rgroup = c(2, 3, 2, 2), rowname = c("Yes",         "No", "Neither", "Overweight", "Obese", "Yes", "No",         "Yes", "No"), table.env = T, here = T, caption = paste(set_Measure,         " among adults by risk and comorbidity variables,", set_Years,         sep = " "), label = "tab:riskComo.tabl")%
+\begin{table}[H]
+\caption{Diabetes prevalence  among adults by risk and comorbidity variables, 2013\label{tab:riskComo.tabl}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Number}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Exercise}&&&&&\tabularnewline
+~~Yes&11.9 (10.5-13.3)&171,737&1.00&0.00&1.00\tabularnewline
+~~No&18.1 (16.4-19.7)&240,357&1.08&0.13&0.57\tabularnewline
+\hline
+{\bfseries BMI}&&&&&\tabularnewline
+~~Neither&4.73 (1.35-8.11)&  3,070&1.00&0.00&1.00\tabularnewline
+~~Overweight&8.58 (7.12-10.0)& 71,762&1.04&0.42&0.92\tabularnewline
+~~Obese&15.4 (13.6-17.3)&161,605&1.97&0.42&0.10\tabularnewline
+\hline
+{\bfseries Tobacco Use}&&&&&\tabularnewline
+~~Yes&15.5 (14.4-16.7)&387,979&1.00&0.00&1.00\tabularnewline
+~~No&9.26 (6.34-12.1)& 27,761&0.88&0.26&0.63\tabularnewline
+\hline
+{\bfseries Any chronic condition}&&&&&\tabularnewline
+~~Yes&0 (0-0)&      0&1.00&0.00&1.00\tabularnewline
+~~No&65.0 (62.0-68.0)&418,229&2908&0.15&0\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
+
+ 
