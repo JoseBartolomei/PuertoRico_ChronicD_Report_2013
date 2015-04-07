@@ -6,7 +6,6 @@
 
 %----------------------------FIRST FIGURE------------------------------------------------
 
-% \subsection*{Overall Prevalence}
 
 
 %latex.default(object = Overall.tabl[, c(-1, -2)], title = "Group",     file = "", rowname = c("Adults"), colhead = c("Prevalence",         "Cases", "Sample Size"), append = TRUE, table.env = T,     here = T, caption = paste(set_Measure, " among adults in ",         set_Country, ", ", set_Years, sep = ""), label = paste("tab:Overall.tabl",         set_DiseaseF, set_Years, sep = "."))%
@@ -104,7 +103,7 @@ stroke prevalence when compared with females.
 %\item Table \ref{tab:sex} shows the estimates for persons living with set_Disease in 
 %set_Country with it 95\% confidence interval.
 
-\item Among adults, females had 15\% less possibility of reporting stroke prevalence when compared with males. This difference was not significant (p-value $>$ 0.05). See Table \ref{tab:sex.Stroke.2013}.
+\item Among adults, females had 15\% less possibility of reporting stroke when compared with males. This difference was not significant (p-value $>$ 0.05). See Table \ref{tab:sex.Stroke.2013}.
 
 \end{itemize}
 
@@ -242,7 +241,7 @@ $<$15k, have a stroke prevalence higher than the other income groups.
 \begin{itemize}
 
 \item Adults who were 
-widowed at the time of the interview, had the highest stroke among marital status. Refer to figure \ref{fig:marital.Stroke.2013}.
+widowed at the time of the interview, had the highest stroke prevalence among marital status. Refer to figure \ref{fig:marital.Stroke.2013}.
 
 \item Those who were separated had 77\% less possibility of having stroke prevalence when compared with those who responded being married. This difference was significant (p-value $<$ 0.05). Refere to Table \ref{tab:marital.Stroke.2013}.
 
@@ -327,12 +326,12 @@ Data shown in Table \ref{tab:employ.Stroke.2013}.
 \multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
 \hline
 {\bfseries Employment status}&&&&&\tabularnewline
-~~Employed&0.80 (0.38-1.22)&     0&1.00&0.00&1.00\tabularnewline
-~~Out of work&0.91 (0.03-1.79)& 1,870&1.13&0.62&0.84\tabularnewline
-~~Homework&1.55 (0.94-2.16)& 5,800&1.23&0.44&0.63\tabularnewline
-~~Student&0 (0-0)& 6,317&0.00&0.62&0.00\tabularnewline
-~~Retired&3.60 (2.49-4.71)&17,338&1.36&0.43&0.47\tabularnewline
-~~Unable to work&7.91 (5.06-10.7)&23,579&5.50&0.44&0.00\tabularnewline
+~~Employed&0.80 (0.38-1.22)& 9,054&1.00&0.00&1.00\tabularnewline
+~~Out of work&0.91 (0.03-1.79)& 2,549&1.13&0.62&0.84\tabularnewline
+~~Homework&1.55 (0.94-2.16)& 8,066&1.23&0.44&0.63\tabularnewline
+~~Student&0 (0-0)&     0&0.00&0.62&0.00\tabularnewline
+~~Retired&3.60 (2.49-4.71)&17,473&1.36&0.43&0.47\tabularnewline
+~~Unable to work&7.91 (5.06-10.7)&17,763&5.50&0.44&0.00\tabularnewline
 \hline
 \end{tabular}\end{center}
 
@@ -396,10 +395,10 @@ than those who claim to have a very good health.
  \newpage
 \begin{itemize}
 
-\item Adults who reported being physically unhealthy for 14 days or more in the past 30 days, had an stroke that was 
+\item Adults who reported being physically unhealthy for 14 days or more in the past 30 days, had an  
 \ifthenelse{
  152 >
-  432}{lower}{higher} when compared with 
+  432}{lower}{higher} stroke prevalence when compared with 
 those who reported being physically unhealthy for less than 13 days in the last 30 days.
 
 %\item Table \ref{tab:phys} shows the estimations of the set_Measure.
@@ -587,8 +586,8 @@ stroke prevalence when compared with their counterpart.
 
  \subsubsection{Remarks}
 
-An estimate of 289,917 
-(10.29\%) adult in Puerto Rico had stroke prevalence as of the period of 2013.
+An estimate of 54,904 
+(1.95\%) adult in Puerto Rico had stroke as of the period of 2013.
 When evaluating by the socio-demographic variables, no specific group has been disproportionately affected with stroke in age groups, educational level or marital status. With regards to gender the stroke was 0.85 times higher in women. Although not statistically significant those in the household income range of 35k-50k and those in the range of more than 50k annually, had 0 and \ensuremath{-2} respectively less possibility of stroke prevalence that those  in group of those who receive less than 15k annually.
 
 Moving to the health related quality of life measures, the possibility of reporting stroke prevalence in adults that perceived their health as fair or poor was 0.95 times higher than those who considered their health as good, very good or excellent. The adults who said that they felt physically bad for 14 days or more for the last 30 days had 0.96 times higher possibility of reporting stroke prevalence than those less than 13 days. In the same manner, adults who felt mentally distressed for 14 days or more in a month had 0.57 times higher possibility of reporting stroke prevalence than those less than 13 days feeling mentally distressed. From 1.6 million adults who were unable to carry on with their normal activities more than 14 days in a month, 3.37 (2.34-4.40) percent reported stroke prevalence. 
@@ -605,6 +604,7 @@ Progress has been made in understanding the burden of stroke in Puerto Rico. Adv
 \newpage
 \subsubsection{Summary tables}
 In this section we provide a set of summary tables of stroke among adults Puerto Rico for the years 2013. The tables aggregate all the analysis conducted in this report for an easy to print and carry document for reference, or to be used as an annex for the preparation of other documents such as an application for funds. For the interpretation of each result, please refer to the corresponding section in the document.
+
 
  
 %latex.default(object = SocioD.tabl, title = "Variables", file = "",     append = TRUE, rgroup = c("Age group", "Gender", "Escolarity",         "Household income", "Marital status", "Employment status"),     n.rgroup = c(6, 2, 4, 5, 6, 6), table.env = T, longtable = F,     here = T, caption = paste(set_Measure, " among adults by socio-demographic variables,",         set_Years, sep = " "), label = "tab:SocioD.tabl")%
@@ -649,12 +649,12 @@ In this section we provide a set of summary tables of stroke among adults Puerto
 ~~Unmarried Couple&0.48 (-0.0-1.02)&   800&0.47&0.63&0.24\tabularnewline
 \hline
 {\bfseries Employment status}&&&&&\tabularnewline
-~~Employed&0.80 (0.38-1.22)&     0&1.00&0.00&1.00\tabularnewline
-~~Out of work&0.91 (0.03-1.79)& 1,870&1.13&0.62&0.84\tabularnewline
-~~Homework&1.55 (0.94-2.16)& 5,800&1.23&0.44&0.63\tabularnewline
-~~Student&0 (0-0)& 6,317&0.00&0.62&0.00\tabularnewline
-~~Retired&3.60 (2.49-4.71)&17,338&1.36&0.43&0.47\tabularnewline
-~~Unable to work&7.91 (5.06-10.7)&23,579&5.50&0.44&0.00\tabularnewline
+~~Employed&0.80 (0.38-1.22)& 9,054&1.00&0.00&1.00\tabularnewline
+~~Out of work&0.91 (0.03-1.79)& 2,549&1.13&0.62&0.84\tabularnewline
+~~Homework&1.55 (0.94-2.16)& 8,066&1.23&0.44&0.63\tabularnewline
+~~Student&0 (0-0)&     0&0.00&0.62&0.00\tabularnewline
+~~Retired&3.60 (2.49-4.71)&17,473&1.36&0.43&0.47\tabularnewline
+~~Unable to work&7.91 (5.06-10.7)&17,763&5.50&0.44&0.00\tabularnewline
 \hline
 \end{tabular}\end{center}
 
@@ -695,4 +695,4 @@ In this section we provide a set of summary tables of stroke among adults Puerto
 
 \end{table}
 
- 
+

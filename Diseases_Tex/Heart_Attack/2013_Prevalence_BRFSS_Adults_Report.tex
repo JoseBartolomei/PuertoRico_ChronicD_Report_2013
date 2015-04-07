@@ -1,10 +1,4 @@
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%                           LOAD LaTeX PACKAGES                              %%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %----------------------------------------------------------------------------------------
 %            RESULTS
 %----------------------------------------------------------------------------------------
@@ -12,7 +6,6 @@
 
 %----------------------------FIRST FIGURE------------------------------------------------
 
-% \subsection*{Overall Prevalence}
 
 
 %latex.default(object = Overall.tabl[, c(-1, -2)], title = "Group",     file = "", rowname = c("Adults"), colhead = c("Prevalence",         "Cases", "Sample Size"), append = TRUE, table.env = T,     here = T, caption = paste(set_Measure, " among adults in ",         set_Country, ", ", set_Years, sep = ""), label = paste("tab:Overall.tabl",         set_DiseaseF, set_Years, sep = "."))%
@@ -110,7 +103,7 @@ heart attack prevalence when compared with females.
 %\item Table \ref{tab:sex} shows the estimates for persons living with set_Disease in 
 %set_Country with it 95\% confidence interval.
 
-\item Among adults, females had 34\% less possibility of reporting heart attack prevalence when compared with males. This difference was significant (p-value $<$ 0.05). See Table \ref{tab:sex.Heart_Attack.2013}.
+\item Among adults, females had 34\% less possibility of reporting heart_attack when compared with males. This difference was significant (p-value $<$ 0.05). See Table \ref{tab:sex.Heart_Attack.2013}.
 
 \end{itemize}
 
@@ -248,7 +241,7 @@ $<$15k, have a heart attack prevalence higher than the other income groups.
 \begin{itemize}
 
 \item Adults who were 
-widowed at the time of the interview, had the highest heart attack among marital status. Refer to figure \ref{fig:marital.Heart_Attack.2013}.
+widowed at the time of the interview, had the highest heart attack prevalence among marital status. Refer to figure \ref{fig:marital.Heart_Attack.2013}.
 
 \item Those who were unmarried couple had 2.14 times more possibility of having heart attack prevalence when compared with those who responded being married. This difference was significant (p-value $<$ 0.05). Refere to Table \ref{tab:marital.Heart_Attack.2013}.
 
@@ -333,12 +326,12 @@ Data shown in Table \ref{tab:employ.Heart_Attack.2013}.
 \multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
 \hline
 {\bfseries Employment status}&&&&&\tabularnewline
-~~Employed&1.74 (1.12-2.36)& 4,439&1.00&0.00&1.00\tabularnewline
-~~Out of work&4.36 (1.88-6.84)& 4,377&2.21&0.39&0.04\tabularnewline
-~~Homework&5.14 (3.74-6.55)& 7,753&1.18&0.31&0.59\tabularnewline
-~~Student&1.29 (0.00-2.81)&19,592&1.89&0.85&0.45\tabularnewline
-~~Retired&10.3 (8.51-12.2)&35,571&1.38&0.28&0.25\tabularnewline
-~~Unable to work&10.5 (7.41-13.7)&65,066&2.15&0.29&0.00\tabularnewline
+~~Employed&1.74 (1.12-2.36)&19,594&1.00&0.00&1.00\tabularnewline
+~~Out of work&4.36 (1.88-6.84)&12,182&2.21&0.39&0.04\tabularnewline
+~~Homework&5.14 (3.74-6.55)&26,636&1.18&0.31&0.59\tabularnewline
+~~Student&1.29 (0.00-2.81)& 2,275&1.89&0.85&0.45\tabularnewline
+~~Retired&10.3 (8.51-12.2)&50,336&1.38&0.28&0.25\tabularnewline
+~~Unable to work&10.5 (7.41-13.7)&23,662&2.15&0.29&0.00\tabularnewline
 \hline
 \end{tabular}\end{center}
 
@@ -402,10 +395,10 @@ than those who claim to have a very good health.
  \newpage
 \begin{itemize}
 
-\item Adults who reported being physically unhealthy for 14 days or more in the past 30 days, had an heart attack that was 
+\item Adults who reported being physically unhealthy for 14 days or more in the past 30 days, had an  
 \ifthenelse{
  414 >
-  901}{lower}{higher} when compared with 
+  901}{lower}{higher} heart attack prevalence when compared with 
 those who reported being physically unhealthy for less than 13 days in the last 30 days.
 
 %\item Table \ref{tab:phys} shows the estimations of the set_Measure.
@@ -593,8 +586,8 @@ heart attack prevalence when compared with their counterpart.
 
  \subsubsection{Remarks}
 
-An estimate of 289,917 
-(10.29\%) adult in Puerto Rico had heart attack prevalence as of the period of 2013.
+An estimate of 136,799 
+(4.86\%) adult in Puerto Rico had heart attack as of the period of 2013.
 When evaluating by the socio-demographic variables, no specific group has been disproportionately affected with heart attack in age groups, educational level or marital status. With regards to gender the heart attack was 0.66 times higher in women. Although not statistically significant those in the household income range of 35k-50k and those in the range of more than 50k annually, had 0 and 0 respectively less possibility of heart attack prevalence that those  in group of those who receive less than 15k annually.
 
 Moving to the health related quality of life measures, the possibility of reporting heart attack prevalence in adults that perceived their health as fair or poor was 1.38 times higher than those who considered their health as good, very good or excellent. The adults who said that they felt physically bad for 14 days or more for the last 30 days had 0.85 times higher possibility of reporting heart attack prevalence than those less than 13 days. In the same manner, adults who felt mentally distressed for 14 days or more in a month had 0.69 times higher possibility of reporting heart attack prevalence than those less than 13 days feeling mentally distressed. From 1.6 million adults who were unable to carry on with their normal activities more than 14 days in a month, 7.20 (5.73-8.66) percent reported heart attack prevalence. 
@@ -612,6 +605,8 @@ Progress has been made in understanding the burden of heart attack in Puerto Ric
 \subsubsection{Summary tables}
 In this section we provide a set of summary tables of heart attack among adults Puerto Rico for the years 2013. The tables aggregate all the analysis conducted in this report for an easy to print and carry document for reference, or to be used as an annex for the preparation of other documents such as an application for funds. For the interpretation of each result, please refer to the corresponding section in the document.
 
+
+ 
 %latex.default(object = SocioD.tabl, title = "Variables", file = "",     append = TRUE, rgroup = c("Age group", "Gender", "Escolarity",         "Household income", "Marital status", "Employment status"),     n.rgroup = c(6, 2, 4, 5, 6, 6), table.env = T, longtable = F,     here = T, caption = paste(set_Measure, " among adults by socio-demographic variables,",         set_Years, sep = " "), label = "tab:SocioD.tabl")%
 \begin{table}[H]
 \caption{Heart attack prevalence  among adults by socio-demographic variables, 2013\label{tab:SocioD.tabl}} 
@@ -654,12 +649,12 @@ In this section we provide a set of summary tables of heart attack among adults 
 ~~Unmarried Couple&4.42 (2.38-6.46)& 7,309&2.14&0.30&0.01\tabularnewline
 \hline
 {\bfseries Employment status}&&&&&\tabularnewline
-~~Employed&1.74 (1.12-2.36)& 4,439&1.00&0.00&1.00\tabularnewline
-~~Out of work&4.36 (1.88-6.84)& 4,377&2.21&0.39&0.04\tabularnewline
-~~Homework&5.14 (3.74-6.55)& 7,753&1.18&0.31&0.59\tabularnewline
-~~Student&1.29 (0.00-2.81)&19,592&1.89&0.85&0.45\tabularnewline
-~~Retired&10.3 (8.51-12.2)&35,571&1.38&0.28&0.25\tabularnewline
-~~Unable to work&10.5 (7.41-13.7)&65,066&2.15&0.29&0.00\tabularnewline
+~~Employed&1.74 (1.12-2.36)&19,594&1.00&0.00&1.00\tabularnewline
+~~Out of work&4.36 (1.88-6.84)&12,182&2.21&0.39&0.04\tabularnewline
+~~Homework&5.14 (3.74-6.55)&26,636&1.18&0.31&0.59\tabularnewline
+~~Student&1.29 (0.00-2.81)& 2,275&1.89&0.85&0.45\tabularnewline
+~~Retired&10.3 (8.51-12.2)&50,336&1.38&0.28&0.25\tabularnewline
+~~Unable to work&10.5 (7.41-13.7)&23,662&2.15&0.29&0.00\tabularnewline
 \hline
 \end{tabular}\end{center}
 

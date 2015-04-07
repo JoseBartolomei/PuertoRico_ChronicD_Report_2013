@@ -48,12 +48,20 @@ This section define the CNCDs that will presented in this report.
 
 The diseases definitions were obtained from The American Heritage® Science Dictionary via the Dictionary.com website [@Dictionary.com2015]
 
+\subsubsections{other Impotant Definitions}
+
+\texbf{Confounding:} The distortion of a measure of the effect of an exposure on an outcome due to the association of the exposure with other factors taht influence the occurence of the outcome. Confounding occurs when all or part of the apparent associaiton between teh exposure and outcome is in fact accounted for by other variables that affect teh outcome and are not themselves affected by exposure.
+
+\textbf{Confidence Interval:} The conventional form of an Interval estimate, computed in statistical analyses, based on the theory of fequency probability.  If the underlying statistical model is correct and there is no bias, a confidence interval derived from a valid analysis will, overd unlimited repetitions of teh study , contain the true paramenter with  a frequency no less than its confidence level.
+
 \subsection{Risk Factors}
 
 Based on the dictionary of epidemiology, "A risk factor is an aspect of personal behavior or lifestyle, an environmental exposure, or an inborn or inherited characteristic that, on the basis of scientific evidence, is known to be associates with meaningful health-related conditions(s). A risk factor can be modified by intervention thereby reducing the probability of occurrence of a disease" [@porta2014dictionary]. In more direct explanation A 'risk factor' refers to any attribute, characteristic or exposure of an individual which increases the likelihood of developing a chronic noncommunicable disease [world2005steps].
 
  Interestingly, four behavioral risk factors are associated with those diseases; tobacco use, excessive alcohol consumption, poor diet, and lack of physical activity [@hunter2013noncommunicable]. Those mentioned factors are risk factors themselfe for biological risk factors determinats of chronic diseases: overweight and obesity, raise blood preassure, raise blood glucose and abnormal blood lipids [world2005steps]. It has evidenced that reduction of those risk factors and access to treatments contribute to decline mortality and morbidity associated to the NCDs [@ford2011proportion; @sytkowski1990changes], look for more references suporting this statement...  Obesity, a precursor to almost any chronic disease, acount for one third of the adult pouplation in the US and among those between 2-19 years of age 1 in 5 are obese (http://www.cdc.gov/nchs/data/factsheets/factsheet_obesity.htm) . 
- 
+
+\subsection{Health Related Quality of Life}
+
 \subsection{Economic Impact}
 
 CNCDs affect economies, health systems, and households and individuals through a range of drivers such as reduced labor productivity, higher medical treatment costs, and lost savings [@nikolic2011chronic]. In the next 10 years, China, India and the United Kingdom are projected to lose $558 billion, $237 billion and $33 billion, respectively, in national income as a result of heart disease, stroke and diabetes, partly as a result of reduced economic productivity [@daar2007grand]. @anderson2010chronic stated that United States spent 85 percent of the health care dollar on people with chronic conditions.  Overseen the importance of planning toward reducing the risk of chronic diseases could cause an estimated production loss, among 23 low and midel income countries between 2006 and 2015, of US$84 billion due to heart disease, stroke, and diabetes alone [@abegunde2007burden]. The economic degradation occurs because an increase population with chronic diseases lead to reduce productivity and competitiveness; fiscal pressures; health outcomes; and poverty, inequity and opportunity loss [@nikolic2011chronic].
