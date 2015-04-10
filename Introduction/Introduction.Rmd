@@ -48,9 +48,9 @@ This section define the CNCDs that will presented in this report.
 
 The diseases definitions were obtained from The American Heritage® Science Dictionary via the Dictionary.com website [@Dictionary.com2015]
 
-\subsubsections{other Impotant Definitions}
+\subsubsection{other Impotant Definitions}
 
-\texbf{Confounding:} The distortion of a measure of the effect of an exposure on an outcome due to the association of the exposure with other factors taht influence the occurence of the outcome. Confounding occurs when all or part of the apparent associaiton between teh exposure and outcome is in fact accounted for by other variables that affect teh outcome and are not themselves affected by exposure.
+\textbf{Confounding:} The distortion of a measure of the effect of an exposure on an outcome due to the association of the exposure with other factors taht influence the occurence of the outcome. Confounding occurs when all or part of the apparent associaiton between teh exposure and outcome is in fact accounted for by other variables that affect teh outcome and are not themselves affected by exposure.
 
 \textbf{Confidence Interval:} The conventional form of an Interval estimate, computed in statistical analyses, based on the theory of fequency probability.  If the underlying statistical model is correct and there is no bias, a confidence interval derived from a valid analysis will, overd unlimited repetitions of teh study , contain the true paramenter with  a frequency no less than its confidence level.
 
@@ -116,5 +116,43 @@ countries/sites;
 To this extend the WHO
 
 The increase in the absolute numbers of deaths is primarily due to the increase in the size and age of the world population [@murray2013disability].
+
+\section{Methods}
+
+\subsection{Data Source}
+	\subsubsection{Questionnaire Question}
+		\subsubsection{Diseases}
+Has a doctor, nurse, or other health professional EVER told you that you had any of the following? For each, tell me “Yes,” “No,” or you’re “Not sure.”
+\begin{itemize}
+	\item \textbf{Heart attack:} (Ever told) you that you had a heart attack also called a myocardial infarction?
+	\item \textbf{Coronary heart disease:} (Ever told) you had angina or coronary heart disease?
+	\item \textbf{Stroke:} (Ever told) you had a stroke?
+	\item \textbf{Lifetime asthma:} (Ever told) you had asthma?
+	\item \textbf{Current asthma:} Do you still have asthma?
+	\item \textbf{Diabetes:} (Ever told) you had diabetes?
+\end{itemize}
+
+		\subsubsection{Health Related Quality of Life}
+\begin{itemize}
+	\item Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good?
+	\item Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good?
+	\item During the past 30 days, for about how many days did poor physical or mental health keep you from doing your usual activities, such as self-care, work, or recreation?
+\end{itemize}
+
+\subsection{Population of Study}
+
+\subsection{Statistical Measures}
+\begin{itemize}
+	\item Prevalence: A measure of disease occurence quantify the proportions of individuals in a population who have a disease or condition : the total numberof individuals who have an attribute or disaes at a particular time divided by the population at risk of having the attribute or disase at that time or midway through the period.  It cuould be refered as to the situation at a specified point in time.
+	
+	\item Odds: The ration of the probability of occurrence of an event to that of nonoccurrence, or the ration of the probability that something is one way to the probability that it is another way.
+	
+	\item Odds Ratio: The ration of two odds. 
+	
+	\item Statistical Significance:
+	
+	\item Clinical Significance (Meaningfully):
+\end{itemize}
+\subsection{lkj}
 
 # Bibliography
