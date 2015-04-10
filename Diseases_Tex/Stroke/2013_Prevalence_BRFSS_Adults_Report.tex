@@ -29,7 +29,7 @@ Adults&1.95 (1.57-2.32)&54,904&6,011\tabularnewline
 \begin{itemize}
 
 
-\item The Stroke prevalence for the year 2013 among adults in Puerto Rico was 1.94 (1.57-2.32) percent, 
+\item The Stroke prevalence for the year 2013 among adults in Puerto Rico was 1.95 (1.57-2.32) percent, 
 Table \ref{tab:Overall.tabl.Stroke.2013}.
 
 \end{itemize}
@@ -50,7 +50,7 @@ Table \ref{tab:Overall.tabl.Stroke.2013}.
 65+
 was higher when compared with the other groups.
 
-\item Adults in the age group of 25-34, 35-44, 45-54, 55-64, 65+ had 1196 times more possibility, 3571 times more possibility, 2596 times more possibility, 7207 times more possibility, 9205 times more possibility, respectively, of reporting stroke prevalence when compared with the 18-24 group. This differences were significant (p-value $<$ 0.05). See Table \ref{tab:age.Stroke.2013}.
+\item Adults in the age group of 55-64, and 65+ had 6.03 times more possibility, and 7.7 times more possibility, respectively, of reporting stroke prevalence when compared with the 24-35 group. This differences were significant (p-value $<$ 0.05). See Table \ref{tab:age.reduced}. The 18-24 age group was excluded from the regression analysis because it does not had cases. The oringal six group information is at table \ref{tab:age.Stroke.2013}.
 
 
 \end{itemize}
@@ -72,6 +72,31 @@ was higher when compared with the other groups.
 \label{fig:age.Stroke.2013}
 \end{figure}
 
+% New tex table for age eliminating 18-24 age group
+
+%\%latex.default(tabl.ageg2, title = ``Variables'', file = ``'', append =
+%TRUE, rgroup = ``Age group'', colhead = c(``Prevalence'', ``Cases (N)'',
+%``OR'', ``OR(SE)'', ``p-value''), longtable = F, table.env = T, here =
+%T, caption = ``Stroke prevalence among adults by age group, 2013'',
+%label = ``tab:age.reduced'')\%
+
+\begin{table}[H]
+\caption{Stroke prevalence among adults by age group, 2013\label{tab:age.reduced}} 
+\begin{center}
+\begin{tabular}{llllll}
+\hline\hline
+\multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
+\hline
+{\bfseries Age group}&&&&&\tabularnewline
+~~25-34&0.38&  187,022&1.00&0.00&1.00\tabularnewline
+~~35-44&1.2&  579,968&2.99&0.83&0.19\tabularnewline
+~~45-54&1.31&  631,695&2.17&0.83&0.35\tabularnewline
+~~55-64&3.96&1,733,798&6.03&0.85&0.03\tabularnewline
+~~65+&4.32&2,357,941&7.7&0.90&0.02\tabularnewline
+\hline
+\end{tabular}\end{center}
+
+\end{table}
 %latex.default(tabl.ageg2, title = "Variables", file = "", append = TRUE,     rgroup = "Age group", colhead = c("Prevalence", "Cases (N)",         "OR", "OR(SE)", "p-value"), longtable = F, table.env = T,     here = T, caption = paste(set_Measure, " among adults by age group,",         set_Years, sep = " "), label = paste("tab:age", set_DiseaseF,         set_Years, sep = "."))%
 \begin{table}[H]
 \caption{Stroke prevalence  among adults by age group, 2013\label{tab:age.Stroke.2013}} 
@@ -93,6 +118,8 @@ was higher when compared with the other groups.
 \end{table}
 
 
+
+% SEX
 \newpage
 \begin{itemize}
 
