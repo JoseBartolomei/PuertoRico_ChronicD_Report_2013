@@ -1,5 +1,5 @@
 ---
-title: "NCD Report Introduction"
+title: "CNCD Report Introduction"
 author: "José A. Bartolomei-Díaz, PhD - Outcome Project"
 date: "March 23, 2015"
 header-includes:
@@ -15,12 +15,11 @@ csl: /home/surfprjab/Dropbox/Puerto_Rico_Chronic_Report/References/csl_Reference
 
 \subsection{Worldwide Problem}
 
-Chronic noncommunicable diseases (CNCDs) are the leading cause of death in the world and affect people of all demographic characteristics (ex., age, gender, income, etc). By 2020 was estimated that 157 million people will have one ore more chronic disease worldwide [@anderson2010chronic]. The World Health Organization (WHO) has estimated that NDCs were responsible for 38 million (68\%) of the world’s 56 million deaths in 2012. More than 40\% of them (16 million) were premature deaths under age 70 years [@world2014draft]. Based on the WHO Noncommunicable Diseases Country Profile of 2014 of the thirty-eight million people who die each year from NCDs, those are mainly from cardiovascular diseases, cancers, chronic respiratory diseases, and diabetes making them the four main noncommunicable diseases worldwide [@ncdWorldProf2014]. Over 14 million deaths from NCDs occur between the ages of 30 and 70, of which 85% are in developing countries. Based on the United States of America (US) National Health Interview Survey was estimated that approximately half (117 million) or 1 in 4 of US adults have at least one of the 10 chronic conditions examined in his study [@ward2014peer]. NCDs not only impose a threat to premature deaths but it also affect people’s physical and mental health, their social life, and employment status in many different ways [@anderson2010chronic].
+Chronic noncommunicable diseases (CNCDs) are the leading cause of death in the world and affect people of all demographic characteristics (ex., age, gender, income, etc). By 2020 was estimated that 157 million people will have one ore more chronic disease worldwide [@anderson2010chronic]. The World Health Organization (WHO) has estimated that CNDCs were responsible for 38 million (68\%) of the world’s 56 million deaths in 2012. More than 40\% of them (16 million) were premature deaths under age 70 years [@world2014draft]. Based on the WHO Noncommunicable Diseases Country Profile of 2014 of the thirty-eight million people who die each year from CNCDs, those are mainly from cardiovascular diseases, cancers, chronic respiratory diseases, and diabetes making them the four main noncommunicable diseases worldwide [@ncdWorldProf2014]. Over 14 million deaths from CNCDs occur between the ages of 30 and 70, of which 85% are in developing countries. Based on the United States of America (US) National Health Interview Survey was estimated that approximately half (117 million) or 1 in 4 of US adults have at least one of the 10 chronic conditions examined in his study [@ward2014peer]. CNCDs not only impose a threat to premature deaths but it also affect people’s physical and mental health, their social life, and employment status in many different ways [@anderson2010chronic].
 
-But how we define a CNCDs? Generally are those diseases characterized by an uncertain etiology, multiple risk factors, a long latency period, a prolonged course of illness, noncontagious origin, functional impairment or disability and incurability. [@remington2010chronic]  Various factors could be lead to the increase of NCDs. First, advances in medical science and technology are being used to treat acute illness and maintain a level of health and functionality that results in increased numbers of people surviving with chronic conditions. Second, there are other technologies that are more successful to make better diagnosing and sometime at early stages. Third, the increasing prevalence of chronic conditions is the aging of society where at older ages increase the probability of having one or more. [@anderson2010chronic].
+But how we define a CNCDs? Generally are those diseases characterized by an uncertain etiology, multiple risk factors, a long latency period, a prolonged course of illness, noncontagious origin, functional impairment or disability and in-curability. [@remington2010chronic]  Various factors could be lead to the increase of CNCDs. First, advances in medical science and technology are being used to treat acute illness and maintain a level of health and functionality that results in increased numbers of people surviving with chronic conditions. Second, there are other technologies that are more successful to make better diagnosing and sometime at early stages. Third, the increasing prevalence of chronic conditions is the aging of society where at older ages increase the probability of having one or more [@anderson2010chronic].
 
-Chronic diseases have important shared features that aid plan and implement public health strategies such as prevention or epidemiological surveillance activities. Those features are [@world2005steps]: the epidemics take decades to become fully established; they have their origin at young ages; they require a long term systematic approach to treatment; given their long duration, there are multiple opportunities for prevention; health services must integrate the response to these diseases with the response to infectious diseases.
-
+Chronic diseases have important shared features that if well understood can aid in plan and implement public health strategies such as prevention or epidemiological surveillance activities. Those features are [@world2005steps]: the epidemics take decades to become fully established; they have their origin at young ages; they require a long term systematic approach to treatment; given their long duration, there are multiple opportunities for prevention; health services must integrate the response to these diseases. Furthermore, we are in need of concerted strategies to reduce the impact of chronic diseases and to reduce as possible the emergence of new cases.
 
 \subsection{Chronic Condition Definitions}
 
@@ -45,29 +44,23 @@ The diseases definitions were obtained from The American Heritage® Science Dict
 
 \subsection{Risk Factors}
 
-Based on the dictionary of epidemiology, "A risk factor is an aspect of personal behavior or lifestyle, an environmental exposure, or an inborn or inherited characteristic that, on the basis of scientific evidence, is known to be associates with meaningful health-related conditions(s). A risk factor can be modified by intervention thereby reducing the probability of occurrence of a disease" [@porta2014dictionary]. In more direct explanation A 'risk factor' refers to any attribute, characteristic or exposure of an individual which increases the likelihood of developing a chronic noncommunicable disease [world2005steps].
+Based on the dictionary of epidemiology, "A risk factor is an aspect of personal behavior or lifestyle, an environmental exposure, or an inborn or inherited characteristic that, on the basis of scientific evidence, is known to be associates with meaningful health-related conditions(s). A risk factor can be modified by intervention thereby reducing the probability of occurrence of a disease" [@porta2014dictionary]. In more direct explanation A 'risk factor' refers to any attribute, characteristic or exposure of an individual which increases the likelihood of developing a chronic noncommunicable disease [@world2005steps].
 
-Interestingly, four behavioral risk factors are associated with the mentioned CNCDs: tobacco use, excessive alcohol consumption, poor diet, and lack of physical activity [@hunter2013noncommunicable]. Those mentioned factors are risk factors themselves for biological risk factors determinants of chronic diseases: overweight and obesity, raise blood pressure, raise blood glucose and abnormal blood lipids [world2005steps]. It has evidenced that reduction of those risk factors and access to treatments contribute to decline mortality and morbidity associated to the NCDs [@ford2011proportion; @sytkowski1990changes], look for more references supporting this statement...  Obesity, a precursor to almost any chronic disease, account for one third of the adult population in the US and among those between 2-19 years of age 1 in 5 are obese (http://www.cdc.gov/nchs/data/factsheets/factsheet_obesity.htm) . 
-
-\subsection{Health Related Quality of Life}
+Interestingly, four behavioral risk factors are associated with the mentioned CNCDs: tobacco use, excessive alcohol consumption, poor diet, and lack of physical activity [@hunter2013noncommunicable]. Those mentioned are risk factors themselves for biological risk factors determinants of chronic diseases: overweight and obesity, raise blood pressure, raise blood glucose and abnormal blood lipids [@world2005steps]. It has been evidenced that reduction of those risk factors and access to treatments contribute to decline mortality and morbidity associated to the CNCDs [@ford2011proportion; @sytkowski1990changes].
 
 \subsection{Economic Impact}
 
-CNCDs affect economies, health systems, and households and individuals through a range of drivers such as reduced labor productivity, higher medical treatment costs, and lost savings [@nikolic2011chronic]. In the next 10 years, China, India and the United Kingdom are projected to lose $558 billion, $237 billion and $33 billion, respectively, in national income as a result of heart disease, stroke and diabetes, partly as a result of reduced economic productivity [@daar2007grand]. @anderson2010chronic stated that United States spent 85 percent of the health care dollar on people with chronic conditions.  Overseen the importance of planning toward reducing the risk of chronic diseases could cause an estimated production loss, among 23 low and middle income countries between 2006 and 2015, of US$84 billion due to heart disease, stroke, and diabetes alone [@abegunde2007burden]. The economic degradation occurs because an increase population with chronic diseases lead to reduce productivity and competitiveness; fiscal pressures; health outcomes; and poverty, inequity and opportunity loss [@nikolic2011chronic].
+CNCDs affect economies, health systems, households and individuals through a range of drivers such as reduced labor productivity, higher medical treatment costs, and lost savings [@nikolic2011chronic]. In the next 10 years, China, India and the United Kingdom are projected to lose $558 billion, $237 billion and $33 billion, respectively, in national income as a result of heart disease, stroke and diabetes, partly as a result of reduced economic productivity [@daar2007grand]. @anderson2010chronic stated that United States spent 85 percent of the health care dollar on people with chronic conditions.  Overseen the importance of planning toward reducing the risk of chronic diseases could cause an estimated production loss, among 23 low and middle income countries between 2006 and 2015, of US$84 billion due to heart disease, stroke, and diabetes alone [@abegunde2007burden]. The economic degradation occurs because an increase population with chronic diseases lead to reduce productivity and competitiveness; fiscal pressures; health outcomes; and poverty, inequity and opportunity loss [@nikolic2011chronic].
 
 Although the economic impact of CNCDs are staggering the focus has been on treatment rather than prevention whereas the latest is where Countries can get the best results to improve quality of life and reduce the economic impact [@jamison2006disease].   Evidence highlights how millions of deaths can be averted and economic losses reduced by billions of dollars if added focus is put on prevention [@bloom2012global]. @abegunde2007burden state that an additional 2% yearly reduction in chronic disease death rates over the next 10 years would avert 24 million deaths in his 23 selected countries, and would save an estimated $8 billion, which is almost 10% of the projected loss in national income over the next 10 years.
 
 \subsection{The Role of Epidemiological Surveillance}
 
-@alwan2010monitoring
+An epidemiological surveillance system is a systematic and continuous collection, analysis and interpretation of data, closely integrated with the timely and coherent dissemination of the results and assessment to those who have the right to know so that action can be taken [@porta2014dictionary].  Strengthen, as appropriate, country-level surveillance and monitoring systems are critical in appropriately addressing non-communicable diseases.  Strengthening can be propelled via including surveys that are integrated into existing national health information systems, include monitoring exposure to risk factors, outcomes, social and economic determinants of health, and health system responses.  [@assembly2011political]. A key component of any national strategy to address this challenge is to quantify and monitor non-communicable diseases and their determinants through sustainable surveillance schemes that are integrated into the national information system [@alwan2010monitoring].
 
-An epidemiological surveillance system is a systematic and continuous collection, analysis and interpretation of data, closely integrated with the timely and coherent dissemination of the results and assessment to those who have the right to know so that action can be taken. [@porta2014dictionary].
+Is vital to recognize that surveillance systems are a network of people and activities that maintain the complex processes.  Overtime, this systems are used to identify changes in the nature of extent of health problems and the effectiveness of public health interventions [@rothman2008modern].  More specifically, a functional epidemiological surveillance system allows health officers establish priorities to direct resources for prevention activities and can be use to: (1) estimate the magnitude of a health problem in the population at risk; (2) understand the natural history of disease or injury; (3) detect outbreaks or epidemics; (4) document the distribution and spread of a health event; (5) test hypotheses about etiology; (6) evaluate control strategies; (7) monitor changes in infectious agents; (8) monitor isolation activities; (9) detect changes in health practice; (10) assess the quality of health care; (11) assess the safety of drugs of procedures; (12) identify research needs and to facilitate epidemiological and laboratory research [@teutsch2000principles].  
 
-Strengthen, as appropriate, country-level surveillance and monitoring systems, including surveys that are integrated in to existing national health information systems and include monitoring exposure to risk factors, outcomes, social and economic determinants of health, and health system responses, recognizing that such systems are critical in appropriately addressing non-communicable diseases [@assembly2011political]. A key component of any national strategy to address this challenge is to quantify and monitor non-communicable diseases and their determinants through sustainable surveillance schemes that are integrated into the national information system [@alwan2010monitoring].
-
-Following the Political Declaration on Noncommunicable Diseases (NCDs) adopted by the UN General Assembly in 2011, WHO developed a global monitoring framework to enable global tracking of progress in preventing and controlling major noncommunicable diseases - cardiovascular disease, cancer, chronic lung diseases and diabetes - and their key risk factors.
-
-All countries can benefit from the comprehensive response to attaining the voluntary global targets presented in the WHO report.
+Following the Political Declaration on Noncommunicable Diseases (CNCDs) adopted by the UN General Assembly in 2011, WHO developed a global monitoring framework to enable global tracking of progress in preventing and controlling major noncommunicable diseases - cardiovascular disease, cancer, chronic lung diseases and diabetes - and their key risk factors. All countries can benefit from the comprehensive response to attaining the voluntary global targets presented in the WHO report.
 \begin{itemize}
 \item Global target 1: A 25\% relative reduction in overall mortality from cardiovascular diseases, cancer, diabetes or chronic respiratory diseases 
 
@@ -88,28 +81,21 @@ All countries can benefit from the comprehensive response to attaining the volun
 \item Global target 9: An 80\% availability of the affordable basic technologies and essential medicines, including generics, required to treat major noncommunicable diseases in both public and private facilities 
 \end{itemize}
 
-The objectives of surveillance of chronic disease risk factors and selected
-chronic diseases are therefore to:
 
-- collect consistent data across and within countries;
-- develop standardized tools to enable comparisons over time and across
-countries/sites;
-- prevent chronic disease epidemics before they occur;
-- help health services plan and determine public health priorities;
-- predict future caseloads of chronic diseases;
-- monitor and evaluate population-wide interventions.
+Given the evidenced public health problem that CNCDs impose to society is expected a emerge of advance public health interventions. Surveillance should be maintained to monitor the performance of those strategies and guide future course of actions.
 
 \section{Objective}
 
-
-To this extend the WHO
-
-The increase in the absolute numbers of deaths is primarily due to the increase in the size and age of the world population [@murray2013disability].
+The objective of this report is to advance in the strategies of CNCDs surveillance activities by reporting on the prevalence of five important chronic disease in Puerto Rico based on the latest data available for Puerto Rico, the 2013 Behavioral Risk Factor Surveillance Survey.
 
 \section{Methods}
 
 \subsection{Data Source}
-	\subsubsection{Questionnaire Question}
+
+The BRFSS, administered and supported by Centers for Disease Control and Prevention (CDC) Behavioral Surveillance Branch since 1984, is a cross-sectional on-going health survey system to track health conditions and risk behaviors [@mokdad2009behavioral]. The BRFSS is a digit-dialed telephone survey with a complex random sample design.  This sampling design produces stratification, clustering, and unequal weighting to allow representatives of the adult population 18 years of age or older living in households [@mokdad2009behavioral]. The Puerto Rico Department of Health, under a cooperative agreement with the CDC, first implemented the BRFSS in 1996 and continues conducting it on a yearly basis. Data for analysis corresponds to survey year 2013. 
+
+\subsubsection{Questionnaire Question}
+Self report chronic conditions question are included within this survey.  The used questions are listed bellow.
 		\subsubsection{Diseases}
 Has a doctor, nurse, or other health professional EVER told you that you had any of the following? For each, tell me “Yes,” “No,” or you’re “Not sure.”
 \begin{itemize}
@@ -121,32 +107,38 @@ Has a doctor, nurse, or other health professional EVER told you that you had any
 	\item \textbf{Diabetes:} (Ever told) you had diabetes?
 \end{itemize}
 
-		\subsubsection{Health Related Quality of Life}
+		\subsubsection{Health Related Quality of Life (HRQOL)}
+
+The Healthy Days Measures are a brief set of survey-based questions designed to assess HRQOL – defined as "perceived physical and mental health over time" [@hennessy1994measuring]. HRQOL is recognized as an important measurement in public health as well as in clinical research and some other health-related disciplines [@hagerty2001quality]. Tracking population HRQOL over time helps identify health disparities, evaluate progress on achieving broad health goals, and inform healthy public policy [@moriarty2003centers].
+
+Five HRQOL measures were obtained from four BRFSS validated questions: (1) "Would you say that in general your health is: excellent, very good, good, fair, or poor?"; (2) "Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good?"; (3) "Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good?"; and (4)  "During the past 30 days, for about how many days did poor physical or mental health keep you from doing your usual activities, such as self-care, work, or recreation?". Responses to all questions were dichotomized to comply with the CDC recommendations (CDC 2000) and with previous studies  [@ford2003self; @strine2008associations]. The first questions responses were dichotomized in excellent/very good and fair/poor to assess the "Individual health perception". The remaining questions responses were segregate in two groups, 0-13 days and >14 days, according to the participants days estimation. The second question provides information about the "Global measure of recent physical symptoms" when more than 14 day of unhealthy physical days was reported. The third question provides information about "Frequent mental distress" from reporting 14 day or more of mental unhealthy days.  Moreover, reporting 14 days or more of activity limitation is refer as the "Global of measure of perceived disability and productivity". An additional measure referred as "Summary of unhealthy days" was calculated using the number of days in questions (2) and (3) with a logic maximum of 30 days.
+
+\subsubsection{Demographics}
+		
+Study covariates included socio-demographic indicators such as: age categories (18-24, 25-34, 35-44, 45-54, 55-64, 65-74, and 74 years or older); gender; educational attainment (not high school graduate, high school graduate, some years of college, and college graduate); yearly household income (<15,000, 15,000 to 25,000, 25,000 to 35,000, 35,000 to <50,000, and >50,000); marital status (divorced, married, never married, separate, unmarried couple, widow); and employment status (for wage, home maker, out of work, retired, self employed, student, unable to work).
+		
+\subsection{Statistical Analysis}
+
+For this report we calculated, for each one of the mentioned diseases the: (1) number of cases, prevalence, 95% confidence interval of the prevalence, adjusted odd ratio and standard errors and p-values of the adjusted odds ratio.  All analysis were conducted using the the R environment for statistical computing and pertinent R packages [@R2015].  The complex sampling scheme of the BRFSS survey was taken into account via the survey package [@lumley2012survey].
+
+As this report is intended for a wide variety of audiences we will define statistical and epidemiological terms used through this work. Definitions were obtained from the Dictionary of Epidemiology [@porta2014dictionary]
+
 \begin{itemize}
-	\item Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good?
-	\item Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good?
-	\item During the past 30 days, for about how many days did poor physical or mental health keep you from doing your usual activities, such as self-care, work, or recreation?
+	\item \textbf{Prevalence:} A measure of disease occurrence that quantify the proportions of individuals in a population who have a disease or condition. Mathematically is the total number of individuals who have an attribute or disease at a particular time divided by the population at risk of having the attribute or disease at that time or midway through the period.  It could be referred as to the situation at a specified point in time.
+	
+	\item \textbf{Odds:} The ratio of the probability of occurrence of an event to that of nonoccurrence, or the ratio of the probability that something is one way to the probability that it is another way.
+	
+	\item \textbf{Odds Ratio:} The ratio of two odds.
+	
+	\item \textbf{Statistical Significance:} The probability of the observed or a larger value of a test statistic under the null hypothesis. Often equivalent to the probability or the observed or larger degree of association under the null hypothesis.
+	
+	\item \textbf{Clinical Significance (Meaningfully):} A difference in effect size considered to be important in medical decisions regardless of the degree of statistical significance.
+	
+	\item \textbf{Confounding:} The distortion of a measure of the effect of an exposure on an outcome due to the association of the exposure with other factors that influence the occurrence of the outcome. Confounding occurs when all or part of the apparent association between the exposure and outcome is in fact accounted for by other variables that affect the outcome and are not themselves affected by exposure.
+	
+	\item \textbf{Confidence Interval:} The conventional form of an interval estimate, computed in statistical analyses, based on the theory of frequency probability.  If the underlying statistical model is correct and there is no bias, a confidence interval derived from a valid analysis will, over unlimited repetitions of the study, contain the true parameter with a frequency no less than its confidence level.
 \end{itemize}
 
-\subsection{Population of Study}
-
-\subsection{Statistical Measures}
-\begin{itemize}
-	\item Prevalence: A measure of disease occurrence quantify the proportions of individuals in a population who have a disease or condition : the total number of individuals who have an attribute or disease at a particular time divided by the population at risk of having the attribute or disease at that time or midway through the period.  It could be referred as to the situation at a specified point in time.
-	
-	\item Odds: The ration of the probability of occurrence of an event to that of nonoccurrence, or the ration of the probability that something is one way to the probability that it is another way.
-	
-	\item Odds Ratio: The ration of two odds. 
-	
-	\item Statistical Significance:
-	
-	\item Clinical Significance (Meaningfully):
-	
-	\item Confounding: The distortion of a measure of the effect of an exposure on an outcome due to the association of the exposure with other factors that influence the occurrence of the outcome. Confounding occurs when all or part of the apparent association between the exposure and outcome is in fact accounted for by other variables that affect the outcome and are not themselves affected by exposure.
-	
-	\item Confidence Interval: The conventional form of an Interval estimate, computed in statistical analyses, based on the theory of frequency probability.  If the underlying statistical model is correct and there is no bias, a confidence interval derived from a valid analysis will, over unlimited repetitions of the study , contain the true parameter with  a frequency no less than its confidence level.
-\end{itemize}
-
-\subsection{Limitation of Prevalence Studies}
+Simplified, the prevalence let us known how many individuals have the disease per every 100, the 95% confidence intervals measure outcome accuracy, the number of individuals with the outcome aid in resources allocation, the regression modeling strategies asses the risk of particular groups, and the hypothesis testings asses the statistical significance the established hypothesis. All Odds Ratios within this work were adjusted via multiple logistic regression model to control for the possibility of confounding. The adjustment were conducted using the socio-demographic variables stated in this section. Eventhough, will not always be explicit all mentioned ORs were adjusted. 
 
 # Bibliography

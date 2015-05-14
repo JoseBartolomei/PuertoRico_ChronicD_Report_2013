@@ -36,7 +36,7 @@ brfss.sd <- svydesign(ids = ~0, strata = ~iyear + ststr, weights = ~finalwt,
 brfss.sd <- as.svydesign2(brfss.sd)
 
 # Dependent Var ---------------------------------------------------------------------
-DP <- ~diabetes
+DP <- ~cvdstrk
 # ~currasth, ~diabetes, ~cvdcrhd, ~cvdinfr, ~cvdstrk
 if(DP == "~currasth"){
 	brfss.sd <- subset(brfss.sd, (!asthmst  ==  "Former"))
@@ -54,11 +54,14 @@ Cases
 
 # Calculate logistic regression model -----------------------------------------------
 # "currasth", "diabetes", "cvdcrhd", "cvdinfr", "cvdstrk"
-glm <- 
- svyglm(currasth ~ sex + incomg + ageg2 + educag3 +  marital2 + emplrec2, 
-        design = brfss.sd , family = quasibinomial)
+subS.sd <- subset(brfss.sd, ageg2 %in% c("25-34", "35-44", "45-54", "55-64", "65+"))
 
+glm <- 
+ svyglm(cvdstrk ~ ageg2 + sex + incomg + educag3 +  marital2 + emplrec2, 
+        design = subS.sd , family = quasibinomial)
+
+glm
 # Adjusted Odds Ratio
-AdjOR <- exp(glm$coefficients)
+AdjOR <- 1/exp(glm$coefficients)[1:5]
 AdjOR
 

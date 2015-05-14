@@ -29,7 +29,7 @@ Adults&4.86 (4.23-5.49)&136,799&6,011\tabularnewline
 \begin{itemize}
 
 
-\item The Heart attack prevalence for the year 2013 among adults in Puerto Rico was 4.86 (4.23-5.49) percent, 
+\item The Heart attack prevalence for the year 2013 among adults in Puerto Rico was 4.86 (4.23-5.49) percent, with an estimated number of cases of 136,799 individuals.
 Table \ref{tab:Overall.tabl.Heart_Attack.2013}.
 
 \end{itemize}
@@ -50,7 +50,7 @@ Table \ref{tab:Overall.tabl.Heart_Attack.2013}.
 65+
 was higher when compared with the other groups.
 
-\item Adults in the age group of 45-54, 55-64, and 65+ had 3.7 times more possibility, 6.77 times more possibility, and 9.21 times more possibility, respectively, of reporting heart attack prevalence when compared with the 18-24 group. This differences were significant (p-value $<$ 0.05). See Table \ref{tab:age.Heart_Attack.2013}.
+\item Adults in the age group of 45-54, 55-64, and 65+ had 3.7, 6.77, and 9.21 times more possibility, respectively, of reporting heart attack prevalence when compared with the 18-24 group. This differences were significant (p-value $<$ 0.05). See Table \ref{tab:age.Heart_Attack.2013}.
 
 
 \end{itemize}
@@ -192,9 +192,10 @@ This difference was marginally significant (0.05 $<$ p-value $<$ 0.10).  Data sh
 \begin{itemize}
 
 \item Figure \ref{fig:income.Heart_Attack.2013} shows that adults whose annual household income is 
-$<$15k, have a heart attack prevalence higher than the other income groups.
+$<$\$15k, have a heart attack prevalence higher than the other income groups.
 
-\item Those in the range of 50+k had 50\% less possibility of reporting heart attack than those whose annual income is less than \$ 14,999. This difference was not significant (p-value $>$ 0.05).  For further information, refer to Table \ref{tab:income.Heart_Attack.2013}.
+\item Those in the range of 
+$50+k had 50\% less possibility of reporting heart attack than those whose annual income is less than \$14,999. This difference was not significant (p-value $>$ 0.05).  For further information, refer to Table \ref{tab:income.Heart_Attack.2013}.
 
 \end{itemize}
 
@@ -240,7 +241,7 @@ $<$15k, have a heart attack prevalence higher than the other income groups.
 \item Adults who were 
 widowed at the time of the interview, had the highest heart attack prevalence among marital status. Refer to figure \ref{fig:marital.Heart_Attack.2013}.
 
-\item Those who were unmarried couple had 2.14 times more possibility of having heart attack prevalence when compared with those who responded being married. This difference was significant (p-value $<$ 0.05). Refere to Table \ref{tab:marital.Heart_Attack.2013}.
+\item Those who were unmarried couple had 2.14 times more possibility of having heart attack prevalence when compared with those who responded being married. This difference was significant (p-value $<$ 0.05). Refer to Table \ref{tab:marital.Heart_Attack.2013}.
 
 \end{itemize}
 
@@ -289,7 +290,7 @@ widowed at the time of the interview, had the highest heart attack prevalence am
 \item Those adults who were 
 unable to work at the moment of the interview, had the highest heart attack prevalence (Figure \ref{fig:employ.Heart_Attack.2013}).
 
-\item Adults who were out of work, or unable to work had 2.21 times more possibility, and 2.15 times more possibility, respectively, of reporting heart attack prevalence when compared with those who responded being employed. This differences were significant (p-value $<$ 0.05). 
+\item Adults who were out of work, or unable to work had 2.21, and 2.15 times more possibility, respectively, of reporting heart attack prevalence when compared with those who responded being employed. This differences were significant (p-value $<$ 0.05). 
 Data shown in Table \ref{tab:employ.Heart_Attack.2013}.
 
 %\item Those who are rownames(t.asma.current.socio)[24], 
@@ -345,7 +346,7 @@ Data shown in Table \ref{tab:employ.Heart_Attack.2013}.
 \item Figure \ref{fig:fairpoor.Heart_Attack.2013} shows that heart attack prevalence  was 
 \ifthenelse{
  219 < 
-  973}{higher}{lower} in persons who perceive their health has fair / poor,
+  973}{higher}{lower} in persons who perceive their health as fair / poor,
 than those who claim to have a very good health.
 
 \item Adults who perceive their health as fair or poor had 38\% more possibility of reporting heart attack prevalence when compared with those who perceived their health as very good. This difference was not significant (p-value $>$ 0.05). Data shown in Table \ref{tab:fairpoor.Heart_Attack.2013}.
@@ -440,7 +441,7 @@ those who reported being physically unhealthy for less than 13 days in the last 
  \newpage
 \begin{itemize}
 
-\item Heart attack prevalence among adults who reported feeling mentally unhealthy for more than 13 days in the last month was \ifthenelse{471 > 
+\item Heart attack prevalence among adults who reported feeling mentally unhealthy for more than 13 days in the last month was, non significantly, \ifthenelse{471 > 
   601}{lower}{higher} when compared with their counterpart (Figure \ref{fig:mental.Heart_Attack.2013}).
 
 %\item set_Measure for this groups are presented in the Table \ref{tab:mental}.
@@ -491,7 +492,7 @@ those who reported being physically unhealthy for less than 13 days in the last 
 \item A \ifthenelse{
  521 > 
   1029}{lower}{higher} 
-heart attack prevalence was observed among adults who were unable to perform their usual activities for 14 days or more due to physical or mental impairment, when compared with the other group. Refer to Figure \ref{fig:poor.Heart_Attack.2013}.
+heart attack prevalence was observed among adults who were unable to perform their usual activities for 14 days or more due to physical or mental impairment, when compared with the other groups. Refer to Figure \ref{fig:poor.Heart_Attack.2013}.
 
 
 
@@ -517,13 +518,13 @@ heart attack prevalence was observed among adults who were unable to perform the
 
 %latex.default(tabl.poorhlcat, title = "Variables", file = "",     append = TRUE, rgroup = "Activiy limitation", colhead = c("Prevalence",         "Cases (N)", "OR", "OR(SE)", "p-value"), longtable = F,     table.env = T, here = T, caption = paste(set_Measure, "among",         set_Population, "who were unable to cunduct usual activities due to physical or mental impairment,",         set_Years, sep = " "), label = paste("tab:poor", set_DiseaseF,         set_Years, sep = "."))%
 \begin{table}[H]
-\caption{Heart attack prevalence among adults who were unable to cunduct usual activities due to physical or mental impairment, 2013\label{tab:poor.Heart_Attack.2013}} 
+\caption{Heart attack prevalence among adults who were unable to conduct usual activities due to physical or mental impairment, 2013\label{tab:poor.Heart_Attack.2013}} 
 \begin{center}
 \begin{tabular}{llllll}
 \hline\hline
 \multicolumn{1}{l}{Variables}&\multicolumn{1}{c}{Prevalence}&\multicolumn{1}{c}{Cases (N)}&\multicolumn{1}{c}{OR}&\multicolumn{1}{c}{OR(SE)}&\multicolumn{1}{c}{p-value}\tabularnewline
 \hline
-{\bfseries Activiy limitation}&&&&&\tabularnewline
+{\bfseries Activity limitation}&&&&&\tabularnewline
 ~~0-13 days&5.21 (4.13-6.30)&51,586&1.00&0.00&1.00\tabularnewline
 ~~14 or more days&10.2 (7.31-13.2)&25,501&1.20&0.34&0.58\tabularnewline
 \hline
@@ -583,9 +584,7 @@ heart attack prevalence when compared with their counterpart.
  \subsubsection{Interpretation}
 
 An estimate of 136,799 
-(4.86\%) adult in Puerto Rico reported being told by a doctor, nurse, or other health professional tha he/she have had heart attack as of the period of 2013.
-
-When evaluating heart attack by age group we obeserved that the age groups 18-24 to 35-44 had similar prevalence and risk of reporting being told they have had a heart attack. On the other hand from 35-44 to the 65+ group the risk increase 3 times in every advancement in age group category. The differences were significant when compared with the 18-24 age group. With regards to gender the heart attack was 0.34 lower in women than men. On education, the Some High School group had significant higher heart attack prevalence than the other three groups wich had approximatelly the same prevalence.  About the risk, the High School Graduate and the Some University groups had a marginal statistical difference to be considered when compared with the reference group (Some High School). A continuous and meaningfully reduction in prevalence and risk of heart attack by household income was observed from the less than \$15,000 to the \$35k-\$50k group.  The above \$50,000 group prevalence and risk was simillar to the \$35k-\$50k group.
+(4.86\%) adult in Puerto Rico reported being told by a doctor, nurse, or other health professional that he/she have had heart attack as of the period of 2013. When evaluating heart attack by age group we observed that the age groups 18-24 to 35-44 had similar prevalence and risk of reporting being told they have had a heart attack. On the other hand, from 35-44 to the 65+ group the risk increase 3 times for every advancement in age group category. The differences were significant when compared with the 18-24 age group. With regards to gender the heart attack was 0.34 lower in women than men. On education, the Some High School group had significant higher heart attack prevalence than the other three groups which had approximately the same prevalence.  About the risk, the High School Graduate and the Some University groups had a marginal statistical difference to be considered when compared with the reference group (Some High School). A continuous and meaningfully reduction in prevalence and risk of heart attack by household income was observed from the less than \$15,000 to the \$35k-\$50k group.  The above \$50,000 group prevalence and risk was similar to the \$35k-\$50k group.
 
 Moving to the health related quality of life measures, the possibility of reporting heart attack prevalence in adults that perceived their health as fair or poor was 1.38 times higher than those who considered their health as good, very good or excellent. The adults who said that they felt physically bad for 14 days or more for the last 30 days had 0.15 times less possibility of reporting heart attack than those less than 13 days. In the same manner, adults who felt mentally distressed for 14 days or more in a month had 0.31 times less possibility of reporting heart attack prevalence than those less than 13 days feeling mentally distressed. From 1.6 million adults who were unable to carry on with their normal activities more than 14 days in a month, 7.20 (5.73-8.66) percent reported heart attack prevalence. 
 
