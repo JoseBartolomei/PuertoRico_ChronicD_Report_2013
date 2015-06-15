@@ -1,0 +1,410 @@
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% REPORT PREPARED BY: JOSE A. BARTOLOMEI DIAZ
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%---------------------------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%                           LOAD LaTeX PACKAGES                              %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[DIV=calc, paper=letter, fontsize=12pt]{scrartcl} % A4 paper and 11pt font size
+%\usepackage{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{endnotes}
+\usepackage{longtable}
+\usepackage{supertabular}
+\usepackage{lscape}
+\usepackage{float}
+\usepackage{fancyref}
+\usepackage{here}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{marginnote}
+\usepackage[tc]{titlepic}
+\usepackage{subfigure}
+\usepackage{lscape}
+%\usepackage[none]{hyphenat}
+\usepackage{hyperref}
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[english]{babel} % English language/hyphenation
+%\usepackage[protrusion=true,expansion=true]{microtype} % Better typography
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage[svgnames]{xcolor} % Enabling colors by their 'svgnames'
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above 
+                                                                 % floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{fix-cm}   % Custom font sizes - used for the initial letter in the document
+\usepackage[margin=1in, paperwidth=8.5in, paperheight=11.5in]{geometry}  %% SEPECIFIED IN THE 
+                                                                         %% DOCUMENTCLASS
+\usepackage{multicol} % LOADS MULTICOLUMNS ENVIROMENT
+\usepackage{xifthen} % FOR EVERY CONDITIONAL STATEMENT IN THE LaTeX LANGUAGE
+
+\usepackage{helvet}
+\usepackage{verbatim}
+
+\usepackage{draftwatermark} % Comment this line to delete the draft watermark
+\SetWatermarkText{DRAFT}
+\SetWatermarkScale{1}
+
+\usepackage{blindtext} % to create arbitratry text
+
+\renewcommand{\familydefault}{\sfdefault}
+
+
+\usepackage{sectsty} % Enables custom section titles
+\allsectionsfont{\usefont{OT1}{phv}{b}{n}} % Change the font of all section commands
+
+%\usepackage{fancyhdr} % Needed to define custom headers/footers
+\pagestyle{fancy} % Enables the custom headers/footers
+\usepackage{lastpage} % Used to determine the number of pages in the document(for "Page X of Total")
+
+\definecolor{MyPurple}{RGB}{64, 51, 81}
+
+\usepackage{titling} % Allows custom title configuration
+% Headers - all currently empty
+\lhead{}
+\chead{}
+\rhead{}
+
+% Footers
+% \lfoot{}
+% \cfoot{{\color{Black}\footnotesize Page \thepage\ of \pageref{LastPage}}} % "Page 1 of 2"
+% \rfoot{} 
+% 
+% \renewcommand{\headrulewidth}{0.0pt} % No header rule
+% \renewcommand{\footrulewidth}{0.4pt} % Thin footer rule
+% 
+
+\newcommand{\initial}[1]{ % Defines the command and style for the first letter
+\lettrine[lines=3,lhang=0.3,nindent=0em]{
+\color{DarkGoldenrod}
+{\textsf{#1}}}{}}
+
+\setcounter{secnumdepth}{0}
+\usepackage{pdfpages}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%                          BEGINING OF DOCUMENT                              %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\color{MyPurple}
+
+\usepackage{eso-pic}
+\newcommand\BackgroundPic{
+\put(-1,0){
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[height=\paperheight,width=\paperwidth]{/media/truecrypt2/ORP2/Logos/interior_1.jpg}
+\vfill
+}}}
+ \AddToShipoutPicture*{\BackgroundPic}
+ 
+\newcommand\ABackgroundPic{
+\put(-1,0){
+\parbox[b][\paperheight]{\paperwidth}{%
+
+\centering
+\includegraphics[height=\paperheight,width=\paperwidth]{/media/truecrypt2/ORP2/Logos/interior_1.jpg}
+
+}}}
+
+\AddToShipoutPicture{\ABackgroundPic}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% To include a logo in every page of the document %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eso-pic,lipsum}
+\AddToShipoutPictureBG{%
+ \AtPageLowerLeft{\hspace{1cm} \includegraphics[width=0.15\textwidth]{/media/truecrypt2/ORP2/Logos/Outcome_Project_Logo.png}~\\[1cm]}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\linespread{1.5}
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+
+% Upper part of the page. The '~' is needed because \\
+% only works if a paragraph has started.
+% Title
+\HRule \\[0.4cm]
+{ \LARGE \bfseries  Chronic Diseases Surveillance Report, 2013 \\
+\\[0.4cm]}
+
+\HRule \\[2.5cm]
+
+\emph{Sponsored by:}\\
+\includegraphics[width=0.30\textwidth]{/media/truecrypt2/ORP2/Logos/New_Logo_Salud_Aug_2013.jpg}~\\[1cm]
+
+\HRule \\[2.5cm]
+
+\emph{Prepared by:}\\
+\includegraphics[width=0.30\textwidth]{/media/truecrypt2/ORP2/Logos/Outcome_Project_Logo.png}~\\[1cm]
+
+\HRule \\[1.5cm]
+% Author and supervisor
+\begin{minipage}{0.4\textwidth}
+%\begin{flushleft} \small
+%\emph{Author:}\\
+\centering
+Jos\'e A. Bartolomei, PhD\\
+Data Scientist\\
+Outcome Project, LLC\\
+%\end{flushleft}
+\end{minipage}
+% \begin{minipage}{0.4\textwidth}
+% \begin{flushright} \small
+% \\
+% Other Name\\
+% Data Scientist\\
+% Outcome Project, LLC\\
+% \end{flushright}
+% \end{minipage}
+% 
+
+\vfill
+
+% Bottom of the page
+{\large \today}
+
+\end{center}
+\end{titlepage}
+
+%\maketitle % Print the title
+\newpage
+\tableofcontents %OUTCOMES THE TABLE OF CONTENT
+\newpage
+\listoftables    %OUTCOMES THE LIST OF TABLES IN THE DOCUMENT
+\newpage
+\listoffigures   %OUTCOMES THE LIST OF FIGURES IN THE DOCUMENT
+\newpage         %CONTINUES IN A NEW PAGE
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%                                ABSTRACT                                    %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%ABSTRACT HERE
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%                                 ARTICLE                                    %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% --------------------------------------------------------------------------------------
+ % Executive Summary
+% --------------------------------------------------------------------------------------
+\newpage
+\section{Executive summary}\\
+ 
+%\blindtext[2] % Non-sense paragraph to fill spaces
+Chronic noncommunicable diseases are the leading cause of death in the world and affect people of all demographics. It is estimated that by 2020 157 million people will have one or more chronic diseases worldwide. Puerto Rico is not exempt from this burden. As of 2013, it was estimated that 8.1\% and 14.9\% of the population living in Puerto Rico had been told by a health professional that they had, sometimes in their lives, coronary heart disease or diabetes, and 4.9\% and 2.0\% of the population had a heart attack or a stroke. In addition, 10.3\% reported currently suffering from asthma in 2013. Preventive measures can be taken to reduce the risk of chronic noncommunicable diseases by reducing the exposure to risk factors such as tobacco use, physical inactivity, obesity, and intake of non- nutritious foods. Those who already have one or more chronic diseases can improve their quality of life through secondary prevention measures.
+
+This report is one of the products of various epidemologic surveillance activities conducted by the Chronic Disease Division, Assistant Secretariat of Health Promotion at the Puerto Rico Department of Health.  Its objetive is to report on the morbidity of five important chronic diseases in Puerto Rico based on the latest data available.  The document provides epidemiological information for policy makers and the general population to guide public health strategies.  We encourage all pertinent agency to act upon this information and evaluate activities using future updates.
+
+%---------------------------------------------------------------------------------------------------
+%            Acknowledgment
+%---------------------------------------------------------------------------------------------------
+\newpage
+\section{Acknowledgements}
+ 
+This report was founded by the Chronic Disease Division, Assistant Secretariat of Health Promotion at the Puerto Rico Department of Health with funds from the Centers for Disease Control and Prevention grant number:
+
+%----------------------------------------------------------------------------------------
+%            Introduction
+%----------------------------------------------------------------------------------------
+\newpage
+\section{Introduction}
+
+\input{/home/surfprjab/Dropbox/Puerto_Rico_Chronic_Report/Introduction/Introduction.tex}
+
+%----------------------------------------------------------------------
+%            RESULTS
+\newpage
+\section{Results}
+\subsection{Results Format}
+
+The Results section includes the overall, socio-demographics and health related quality of life outcome measures for all diseases stated on the method section.  In addition, it provides interpretation of remarks findings of every evaluated category.  The way the graphs, tables and interpretations were structured allows the reader, using the provided information, learn to conduct their own interpretations. For example, Figure 1 shows that the current asthma prevalence for the age group of 18-24 was higher when compared with the other groups. In the same manner, the reader can observe and infer that the 65+ age group was the one with the lowest prevalence and so on. Let refresh, the prevalence measure provides the number of cases in a specified group (Ej, 18-24 age group) relative to the size of the population in that specific group.  This is important because if only the overall number of cases are compared is very likely to find more cases in large populations.  Takes for example Table 6 of this document. The estimated asthma cases in the Married group are 97,357 with a prevalence of 8.97 cases per every 100 individuals.  On the other hand, the estimated asthma cases in the Unmarried Couple group are less with 20,483. Nevertheless, the prevalence is higher with 12.4 asthma cases per 100 individuals in that specific category.  Why the higher prevalence with lower cases in the Unmarried Couple group?  If the population is calculated ($Population = Prevalence * Cases$) will be notice that the Married group population is bigger (873,292) than the Unmarried Couple population (253,989) providing the higher number of cases.
+
+
+Special attention should be given to the p-values and confidence intervals of the graphs and tables. P-values are procedures designed to aid decide if two or more comparisons statistically differ. A p-value lower than 0.05 is a rule of thumb to classify a statistical comparison as statistically significant or that the groups are different.  The 95\% confidence interval provides a range of possible values of an estimated measure.  For example, in Table 1, the central estimate for current asthma prevalence was 10.29 cases per 100 individuals.  With the 95\% confidence interval we are 95\% confident that the true estimate is between 9.27 to 11.32 cases per 100 individuals.
+
+Another measure in this report is the adjusted Odds Ratio (OR for simplicity) which provides an estimate of risk. This risk is estimated by measuring the association between a given disease (Ej. stroke) and a risk factor (Ej. high slat intake or high blood pressure). Nonetheless, the association may be confounded by other variables (Ej., age, weight, household income) and this needs to be taken into account by adjusting. When the terms, controlling for or adjusting for or confounded by are mentioned they are referring to confounding, an important and commonly ignore concept in epidemiology. Adjusted Odds Ratios for estimation are quite easy to interpret. For example, table 4 shows that the adjusted odds ratio for the University Graduate group had 20\% less possibility of reporting current asthma prevalence than the reference group after adjusting for all other socio-demographic variables. The reference group always will be the first category of the table.  In table 4, the Some High School group is the reference group. In table 3, males is the reference group. Back to table 4, the reader can interpret that the Some University group had 10 percent higher risk than the Some High School group after controlling for socio-demographic variables. If Odds Ratio were not adjusted then the estimated risk may be given misleading information.  In Table 4 the p-values are higher than 0.05 meaning that the are no statistical differences between the reference group and other groups in the table.  Nonetheless, the observed comparisons could have clinical meaningfulness that should be determine by a group of experts.  Cautiously reading the interpretations through the document and with the terms included in the introductory section the reader will learn how to interpret epidemiological and statistical information.
+\newpage
+
+%----------------------------------------------------------------------------------------
+% Asthma
+%----------------------------------------------------------------------------------------
+
+\subsection{Asthma}
+
+\input{/home/surfprjab/Dropbox/Puerto_Rico_Chronic_Report/Diseases_Tex/Asthma/2013_Prevalence_BRFSS_Adults_Report.tex}
+
+%----------------------------------------------------------------------------------------
+% Coronary Heart Disease
+%----------------------------------------------------------------------------------------
+% \newpage
+% \subsection{Coronary Heart Disease}
+% 
+% \input{/home/surfprjab/Dropbox/Puerto_Rico_Chronic_Report/Diseases_Tex/Coronary_Heart_Disease/2013_Prevalence_BRFSS_Adults_Report.tex}
+% 
+% 
+% %----------------------------------------------------------------------------------------
+% % Diabetes
+% %----------------------------------------------------------------------------------------
+% \newpage
+% \subsection{Diabetes}
+% 
+% \input{/home/surfprjab/Dropbox/Puerto_Rico_Chronic_Report/Diseases_Tex/Diabetes/2013_Prevalence_BRFSS_Adults_Report.tex}
+% %----------------------------------------------------------------------------------------
+% % Heart Attack
+% %----------------------------------------------------------------------------------------
+% \newpage
+% \subsection{Heart Attack}
+% 
+% \input{/home/surfprjab/Dropbox/Puerto_Rico_Chronic_Report/Diseases_Tex/Heart_Attack/2013_Prevalence_BRFSS_Adults_Report.tex}
+% 
+% %----------------------------------------------------------------------------------------
+% % Stroke
+% % %----------------------------------------------------------------------------------------
+% \newpage
+% \subsection{Stroke}
+% 
+% \input{/home/surfprjab/Dropbox/Puerto_Rico_Chronic_Report/Diseases_Tex/Stroke/2013_Prevalence_BRFSS_Adults_Report.tex}
+% 
+% 
+% \newpage
+% \section*{Bibliography}\label{bibliography}
+% \addcontentsline{toc}{section}{Bibliography}
+
+% \flushleft
+% Abegunde, D. O., Mathers, C. D., Adam, T., Ortegon, M., \& Strong, K.
+% (2007). The burden and costs of chronic diseases in low-income and
+% middle-income countries. \emph{The Lancet}, \emph{370}(9603),
+% 1929--1938.
+% 
+% Alwan, A., MacLean, D. R., Riley, L. M., d'Espaignet, E. T., Mathers, C.
+% D., Stevens, G. A., \& Bettcher, D. (2010). Monitoring and surveillance
+% of chronic non-communicable diseases: Progress and capacity in
+% high-burden countries. \emph{The Lancet}, \emph{376}(9755), 1861--1868.
+% 
+% Anderson, G. F. (2010). \emph{Chronic care: Making the case for ongoing
+% care}. Robert Wood Johnson Foundation.
+% 
+% Assembly, U. G. (2011). Political declaration of the high-level meeting
+% of the general assembly on the prevention and control of
+% non-communicable diseases. \emph{UN New York}.
+% 
+% Bloom, D. E., Cafiero, E., Jan{é}-Llopis, E., Abrahams-Gessel, S.,
+% Bloom, L. R., Fathima, S., \ldots{} others. (2012). \emph{The global
+% economic burden of noncommunicable diseases}. Program on the Global
+% Demography of Aging.
+% 
+% Daar, A. S., Singer, P. A., Persad, D. L., Pramming, S. K., Matthews, D.
+% R., Beaglehole, R., \ldots{} others. (2007). Grand challenges in chronic
+% non-communicable diseases. \emph{Nature}, \emph{450}(7169), 494--496.
+% 
+% Ford, E. S., \& Capewell, S. (2011). Proportion of the decline in
+% cardiovascular mortality disease due to prevention versus treatment:
+% Public health versus clinical care. \emph{Annual Review of Public
+% Health}, \emph{32}, 5--22.
+% 
+% Ford, E. S., Mannino, D. M., Homa, D. M., Gwynn, C., Redd, S. C.,
+% Moriarty, D. G., \& Mokdad, A. H. (2003). Self-reported asthma and
+% health-related quality of life: Findings from the behavioral risk factor
+% surveillance system. \emph{CHEST Journal}, \emph{123}(1), 119--127.
+% 
+% Hagerty, M. R., Cummins, R. A., Ferriss, A. L., Land, K., Michalos, A.
+% C., Peterson, M., \ldots{} Vogel, J. (2001). Quality of life indexes for
+% national policy: Review and agenda for research. \emph{Social Indicators
+% Research}, \emph{55}(1), 1--96.
+% 
+% Hennessy, C. H., Moriarty, D. G., Zack, M. M., Scherr, P. A., \&
+% Brackbill, R. (1994). Measuring health-related quality of life for
+% public health surveillance. \emph{Public Health Reports}, \emph{109}(5),
+% 665.
+% 
+% Hunter, D. J., \& Reddy, K. S. (2013). Noncommunicable diseases.
+% \emph{New England Journal of Medicine}, \emph{369}(14), 1336--1343.
+% 
+% Jamison, D. T., Breman, J. G., Measham, A. R., Alleyne, G., Claeson, M.,
+% Evans, D. B., \ldots{} Musgrove, P. (2006). \emph{Disease control
+% priorities in developing countries}. World Bank Publications.
+% 
+% Lumley, T. (2014). Survey: Analysis of complex survey samples. r package
+% version 3.28-2.
+% 
+% Mokdad, A. H. (2009). The behavioral risk factors surveillance system:
+% Past, present, and future. \emph{Annual Review of Public Health},
+% \emph{30}, 43--54.
+% 
+% Moriarty, D. G., Zack, M. M., \& Kobau, R. (2003). The centers for
+% disease control and prevention's healthy days measures--Population
+% tracking of perceived physical and mental health over time. \emph{Health
+% and Quality of Life Outcomes}, \emph{1}(1), 37.
+% 
+% Nikolic, I. A., Stanciole, A. E., \& Zaydman, M. (2011). Chronic
+% emergency: Why nCDs matter.
+% 
+% Porta, M., Greenland, S., Hern{á}n, M., Silva, I. D. S., \& Last, J. M.
+% (2014). \emph{A dictionary of epidemiology}. Oxford University Press.
+% 
+% R Core Team. (2015). \emph{R: A language and environment for statistical
+% computing}. Vienna, Austria: R Foundation for Statistical Computing.
+% Retrieved from \url{http://www.R-project.org/}
+% 
+% Remington, P. L., Brownson, R. C., \& Wegner, M. V. (2010). Chronic
+% disease epidemiology and control.
+% 
+% Riley, L., \& Cowan, M. (2014). Noncommunicable diseases country
+% profiles 2014. Retrieved from
+% \url{http://www.who.int/global-coordination-mechanism/publications/ncds-country-profiles-eng.pdf}
+% 
+% Rothman, K. J., Greenland, S., \& Lash, T. L. (2008). \emph{Modern
+% epidemiology}. Lippincott Williams \& Wilkins.
+% 
+% Strine, T. W., Chapman, D. P., Balluz, L. S., Moriarty, D. G., \&
+% Mokdad, A. H. (2008). The associations between life satisfaction and
+% health-related quality of life, chronic illness, and health behaviors
+% among uS community-dwelling adults. \emph{Journal of Community Health},
+% \emph{33}(1), 40--50.
+% 
+% Sytkowski, P. A., Kannel, W. B., \& D'Agostino, R. B. (1990). Changes in
+% risk factors and the decline in mortality from cardiovascular disease:
+% The framingham heart study. \emph{New England Journal of Medicine},
+% \emph{322}(23), 1635--1641.
+% 
+% Teutsch, S. M., \& Churchill, R. E. (2000). \emph{Principles and
+% practice of public health surveillance}. Oxford University Press.
+% 
+% The american heritage® science dictionary. (2015). Retrieved from
+% \href{http://dictionary.reference.com/browse/heart attack}{http://dictionary.reference.com/browse/heart attack}
+% 
+% Ward, B. W., Schiller, J. S., \& Goodman, R. A. (2014). Peer reviewed:
+% Multiple chronic conditions among uS adults: A 2012 update.
+% \emph{Preventing Chronic Disease}, \emph{11}.
+% 
+% WHO. (2013). Draft comprehensive global monitoring framework and targets
+% for the prevention and control of noncommunicable diseases. Retrieved
+% from \url{http://apps.who.int/gb/ebwha/pdf_files/WHA66/A66_8-en.pdf}
+% 
+% WHO, \& others. (2005). WHO sTEPS surveillance manual: The wHO sTEPwise
+% approach to chronic disease risk factor surveillance.
+% 
+% © encyclopedia britannica, inc. (2015). Retrieved from
+% \href{http://dictionary.reference.com/browse/cardiovascular disease}{http://dictionary.reference.com/browse/cardiovascular disease}
+
+\end{document}
